@@ -1,0 +1,18 @@
+; Perchlorate anion [ClO4]
+;
+; Ionic liquid OPLS-AA force field
+; Version 3/2017
+; Orlando Acevedo
+; Email: orlando.acevedo@miami.edu
+; Contributors: S.V. Sambasivarao, B. Doherty, X. Zhong, S. Gathiaka, B. Li
+;
+; S.V. Sambasivarao, O. Acevedo, Development of OPLS-AA Force Field Parameters for 68 Unique Ionic Liquids, J. Chem. Theory Comput., 2009, 5, 1038-1050.
+; B. Doherty, X. Zhong, S. Gathiaka, B. Li, O. Acevedo, Revisiting OPLS Force Field Parameters for Ionic Liquid Simulations, 2017, (submitted).
+;
+; Values given below for use in GROMACS 5.0.7 and in comments are traditional OPLS-AA units (e.g., angstroms, kcal/mol, degrees)
+
+    [  atomtypes  ]                                
+;   type    mass     charge  ptype sigma(nm) epsilon(kJ/mol) sigma(Ang.) epsilon(kcal/mol)
+    Clc    35.45     0.940   A    0.35    0.49283    ;    3.5    0.118
+    Oc     15.99    -0.435   A    0.29    0.87864    ;    2.9    0.21
+

@@ -1,0 +1,18 @@
+; Hexafluorophosphate anion [PF6]
+;
+; Ionic liquid OPLS-AA force field
+; Version 3/2017
+; Orlando Acevedo
+; Email: orlando.acevedo@miami.edu
+; Contributors: S.V. Sambasivarao, B. Doherty, X. Zhong, S. Gathiaka, B. Li
+;
+; S.V. Sambasivarao, O. Acevedo, Development of OPLS-AA Force Field Parameters for 68 Unique Ionic Liquids, J. Chem. Theory Comput., 2009, 5, 1038-1050.
+; B. Doherty, X. Zhong, S. Gathiaka, B. Li, O. Acevedo, Revisiting OPLS Force Field Parameters for Ionic Liquid Simulations, 2017, (submitted).
+;
+; Values given below for use in GROMACS 5.0.7 and in comments are traditional OPLS-AA units (e.g., angstroms, kcal/mol, degrees)
+
+    [  atomtypes  ]                                
+;  type   mass     charge  ptype sigma(nm)  epsilon(kJ/mol) sigma(Ang.) epsilon(kcal/mol)
+    P    30.974     1.072    A    0.37400    0.83700    ;    3.74      0.20
+    F    18.998    -0.312    A    0.31181    0.25522    ;    3.1181    0.061
+

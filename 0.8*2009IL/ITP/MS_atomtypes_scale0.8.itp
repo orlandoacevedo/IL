@@ -1,0 +1,21 @@
+; Methylsulfate anion [MS]
+;
+; Ionic liquid OPLS-AA force field
+; Version 3/2017
+; Orlando Acevedo
+; Email: orlando.acevedo@miami.edu
+; Contributors: S.V. Sambasivarao, B. Doherty, X. Zhong, S. Gathiaka, B. Li
+;
+; S.V. Sambasivarao, O. Acevedo, Development of OPLS-AA Force Field Parameters for 68 Unique Ionic Liquids, J. Chem. Theory Comput., 2009, 5, 1038-1050.
+; B. Doherty, X. Zhong, S. Gathiaka, B. Li, O. Acevedo, Revisiting OPLS Force Field Parameters for Ionic Liquid Simulations, 2017, (submitted).
+;
+; Values given below for use in GROMACS 5.0.7 and in comments are traditional OPLS-AA units (e.g., angstroms, kcal/mol, degrees)
+
+    [  atomtypes  ]                                
+; type    mass       charge  ptype sigma(nm) epsilon(kJ/mol) sigma(Ang.) epsilon(kcal/mol)
+    C     12.011    0.15240    A    0.350    0.276144    ;    3.5     0.066
+    HC    1.008    -0.00808    A    0.250    0.125520    ;    2.5     0.03
+    S     32.06     1.00008    A    0.355    1.046000    ;    3.55    0.25
+    O     15.999   -0.52672    A    0.315    0.836800    ;    3.15    0.2
+    OS    15.999   -0.34808    A    0.300    0.711280    ;    3       0.17
+

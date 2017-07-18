@@ -1,0 +1,38 @@
+; EMIM_TCM topology file 
+;
+; Ionic liquid OPLS-AA force field
+; Version 3/2017
+; Orlando Acevedo
+; Email: orlando.acevedo@miami.edu
+; Contributors: S.V. Sambasivarao, B. Doherty, X. Zhong, S. Gathiaka, B. Li
+;
+; S.V. Sambasivarao, O. Acevedo, Development of OPLS-AA Force Field Parameters for 68 Unique Ionic Liquids, J. Chem. Theory Comput., 2009, 5, 1038-1050.
+; B. Doherty, X. Zhong, S. Gathiaka, B. Li, O. Acevedo, Revisiting OPLS Force Field Parameters for Ionic Liquid Simulations, 2017, (submitted).
+;
+; Values given below for use in GROMACS 5.0.7 and in comments are traditional OPLS-AA units (e.g., angstroms, kcal/mol, degrees)
+
+#define _FF_OPLS
+#define _FF_OPLSAA
+
+[ defaults ]
+;nbfunc  comb-rule   gen-pairs   fudgeLJ  fudgeQQ
+   1         3          yes        0.5      0.5
+
+;;;LOAD atomtypes
+
+#include "/HOME_DIRECTORY_PATH/EMIM_atomtypes_scale0.8.itp"
+#include "/HOME_DIRECTORY_PATH/TCM_atomtypes_scale0.8.itp"
+
+;;;LOAD bonded parameters
+
+#include "/HOME_DIRECTORY_PATH/EMIM_scale0.8.itp"
+#include "/HOME_DIRECTORY_PATH/TCM_scale0.8.itp"
+
+[ system ]
+;name
+Neat EMI TCM
+
+[ molecules]
+  EMI  500
+  TCM  500
+
