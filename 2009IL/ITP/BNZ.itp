@@ -1,0 +1,102 @@
+; Benzoate anion [BNZ]
+;
+; Ionic liquid OPLS-AA force field
+; Version 3/2017
+; Orlando Acevedo
+; Email: orlando.acevedo@miami.edu
+; Contributors: S.V. Sambasivarao, B. Doherty, X. Zhong, S. Gathiaka, B. Li
+;
+; S.V. Sambasivarao, O. Acevedo, Development of OPLS-AA Force Field Parameters for 68 Unique Ionic Liquids, J. Chem. Theory Comput., 2009, 5, 1038-1050.
+; B. Doherty, X. Zhong, S. Gathiaka, B. Li, O. Acevedo, Revisiting OPLS Force Field Parameters for Ionic Liquid Simulations, 2017, (submitted).
+;
+; Values given below for use in GROMACS 5.0.7 and in comments are traditional OPLS-AA units (e.g., angstroms, kcal/mol, degrees)
+
+    [  moleculetype  ]    
+;    name    nrexcl
+     BNZ    3
+
+    [  atoms  ]                            
+;   nr   type resnr residu atom  cgnr  charge    mass
+    1     CF    1    BNZ    C1    1    -0.100    12.011
+    2     CY    1    BNZ    C2    1    -0.115    12.011
+    3     CY    1    BNZ    C3    1    -0.115    12.011
+    4     CY    1    BNZ    C4    1    -0.115    12.011
+    5     CY    1    BNZ    C5    1    -0.115    12.011
+    6     CY    1    BNZ    C6    1    -0.115    12.011
+    7     C     1    BNZ    C7    1     0.700    12.011
+    8     HY    1    BNZ    H2    1     0.115    1.008
+    9     HY    1    BNZ    H3    1     0.115    1.008
+    10    HY    1    BNZ    H4    1     0.115    1.008
+    11    HY    1    BNZ    H5    1     0.115    1.008
+    12    HY    1    BNZ    H6    1     0.115    1.008
+    13    O2    1    BNZ    O7A   1    -0.800    15.999
+    14    O2    1    BNZ    O7B   1    -0.800    15.999
+
+    [  bonds  ]                                
+;   ai   aj  funct  c0(nm)  c1(kJ mol-1 nm-2) ro(Ang.) kr(kcal mol-1 Ang.-2)    
+    1    2    1    0.140    392459.2    ;    1.4     469    CF-CY
+    1    3    1    0.140    392459.2    ;    1.4     469    CF-CY
+    1    7    1    0.149    334720.0    ;    1.49    400    C-CF
+    2    4    1    0.140    392459.2    ;    1.4     469    CY-CY
+    2    8    1    0.108    307105.6    ;    1.08    367    CY-HY
+    3    5    1    0.140    392459.2    ;    1.4     469    CY-CY
+    3    9    1    0.108    307105.6    ;    1.08    367    CY-HY
+    4    6    1    0.140    392459.2    ;    1.4     469    CY-CY
+    4    10   1    0.108    307105.6    ;    1.08    367    CY-HY
+    5    6    1    0.140    392459.2    ;    1.4     469    CY-CY
+    5    11   1    0.108    307105.6    ;    1.08    367    CY-HY
+    6    12   1    0.108    307105.6    ;    1.08    367    CY-HY
+    7    13   1    0.125    548940.8    ;    1.25    656    C-O2
+    7    14   1    0.125    548940.8    ;    1.25    656    C-O2
+
+    [  angles  ]                                    
+;   ai   aj   ak funct  c0(deg) c1(kJ mol-1 rad-2) c0(deg) c1(kcal mol-1 rad-2)    
+    1    2    4    1    117    527.184    ;    117    63    CF-CY-CY
+    1    2    8    1    120    292.880    ;    120    35    CF-CY-HY
+    1    3    5    1    120    527.184    ;    120    63    CF-CY-CY
+    1    3    9    1    120    292.880    ;    120    35    CF-CY-HY
+    1    7    13   1    117    585.760    ;    117    70    CF-C-O2
+    1    7    14   1    117    585.760    ;    117    70    CF-C-O2
+    2    1    3    1    120    527.184    ;    120    63    CY-CF-CY
+    2    1    7    1    120    711.280    ;    120    85    C-CF-CY
+    2    4    6    1    120    527.184    ;    120    63    CY-CY-CY
+    2    4    10   1    120    292.880    ;    120    35    CY-CY-HY
+    3    1    7    1    120    711.280    ;    120    85    C-CF-CY
+    3    5    6    1    120    527.184    ;    120    63    CY-CY-CY
+    3    5    11   1    120    292.880    ;    120    35    CY-CY-HY
+    4    2    8    1    120    292.880    ;    120    35    CY-CY-HY
+    4    6    5    1    120    527.184    ;    120    63    CY-CY-CY
+    4    6    12   1    120    292.880    ;    120    35    CY-CY-HY
+    5    6    12   1    120    292.880    ;    120    35    CY-CY-HY
+    5    3    9    1    120    292.880    ;    120    35    CY-CY-HY
+    6    5    11   1    120    292.880    ;    120    35    CY-CY-HY
+    6    4    10   1    120    292.880    ;    120    35    CY-CY-HY
+    13   7    14   1    126    669.440    ;    126    80    O2-C-O2
+
+    [  dihedrals  ]                                                        
+;   ai   aj   ak   al  funct  c0       c1        c2    c3(kJ/mol) ;    V1    V2    V3    V4  (kcal/mol)    
+    1    2    4    6    5    0.000    30.334    0.000    0.000    ;    0    7.25    0    0    CF-CY-CY-CY
+    1    2    4    10   5    0.000    30.334    0.000    0.000    ;    0    7.25    0    0    CF-CY-CY-HY
+    1    3    5    6    5    0.000    30.334    0.000    0.000    ;    0    7.25    0    0    CF-CY-CY-CY
+    1    3    5    11   5    0.000    30.334    0.000    0.000    ;    0    7.25    0    0    CF-CY-CY-HY
+    1    7    13   14   5    0.000    87.864    0.000    0.000    ;    0    21      0    0    CF-C-O2-O2  improper
+    1    7    14   13   5    0.000    87.864    0.000    0.000    ;    0    21      0    0    CF-C-O2-O2  improper
+    2    1    3    5    5    0.000    30.334    0.000    0.000    ;    0    7.25    0    0    CY-CF-CY-CY
+    2    1    3    9    5    0.000    30.334    0.000    0.000    ;    0    7.25    0    0    CY-CF-CY-HY
+    2    1    7    13   5    0.000    8.786     0.000    0.000    ;    0    2.1     0    0    CY-CF-C-O2
+    2    1    7    14   5    0.000    8.786     0.000    0.000    ;    0    2.1     0    0    CY-CF-C-O2
+    2    4    6    5    5    0.000    30.334    0.000    0.000    ;    0    7.25    0    0    CY-CY-CY-CY
+    2    4    6    12   5    0.000    30.334    0.000    0.000    ;    0    7.25    0    0    CY-CY-CY-HY
+    3    1    2    4    5    0.000    30.334    0.000    0.000    ;    0    7.25    0    0    CY-CF-CY-CY
+    3    1    2    8    5    0.000    30.334    0.000    0.000    ;    0    7.25    0    0    CY-CF-CY-HY
+    3    1    7    13   5    0.000    8.786     0.000    0.000    ;    0    2.1     0    0    CY-CF-C-O2
+    3    1    7    14   5    0.000    8.786     0.000    0.000    ;    0    2.1     0    0    CY-CF-C-O2
+    3    5    6    4    5    0.000    30.334    0.000    0.000    ;    0    7.25    0    0    CY-CY-CY-CY
+    3    5    6    12   5    0.000    30.334    0.000    0.000    ;    0    7.25    0    0    CY-CY-CY-HY
+    4    2    1    7    5    0.000    30.334    0.000    0.000    ;    0    7.25    0    0    CY-CF-CY-C
+    4    6    5    11   5    0.000    30.334    0.000    0.000    ;    0    7.25    0    0    CY-CY-CY-HY
+    5    6    4    10   5    0.000    30.334    0.000    0.000    ;    0    7.25    0    0    CY-CY-CY-HY
+    5    3    1    7    5    0.000    30.334    0.000    0.000    ;    0    7.25    0    0    CY-CF-CY-C
+    6    5    3    9    5    0.000    30.334    0.000    0.000    ;    0    7.25    0    0    CY-CY-CY-HY
+    6    4    2    8    5    0.000    30.334    0.000    0.000    ;    0    7.25    0    0    CY-CY-CY-HY
+

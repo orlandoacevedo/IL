@@ -1,0 +1,57 @@
+; Tricyanomethanide anion [TCM]
+;
+; Ionic liquid OPLS-AA force field
+; Version 3/2017
+; Orlando Acevedo
+; Email: orlando.acevedo@miami.edu
+; Contributors: S.V. Sambasivarao, B. Doherty, X. Zhong, S. Gathiaka, B. Li
+;
+; S.V. Sambasivarao, O. Acevedo, Development of OPLS-AA Force Field Parameters for 68 Unique Ionic Liquids, J. Chem. Theory Comput., 2009, 5, 1038-1050.
+; B. Doherty, X. Zhong, S. Gathiaka, B. Li, O. Acevedo, Revisiting OPLS Force Field Parameters for Ionic Liquid Simulations, 2017, (submitted).
+;
+; Values given below for use in GROMACS 5.0.7 and in comments are traditional OPLS-AA units (e.g., angstroms, kcal/mol, degrees)
+
+    [  moleculetype  ]    
+;    name   nrexcl
+     TCM     2
+
+    [  atoms  ]                            
+;   nr  type resnr residu atom cgnr   charge     mass
+    1    CV    1    TCM    C1    1    -0.943    12.011
+    2    CZ    1    TCM    C2    1     0.644    12.011
+    3    CZ    1    TCM    C3    1     0.644    12.011
+    4    CZ    1    TCM    C4    1     0.644    12.011
+    5    NZ    1    TCM    N5    1    -0.663    14.007
+    6    NZ    1    TCM    N6    1    -0.663    14.007
+    7    NZ    1    TCM    N7    1    -0.663    14.007
+
+    [  bonds  ]                                
+;   ai   aj funct  c0(nm)  c1(kJ mol-1 nm-2) ro(Ang.) kr(kcal mol-1 Ang.-2)    
+    2    5    1    0.1157    543920    ;    1.157    650    CZ-NZ
+    3    6    1    0.1157    543920    ;    1.157    650    CZ-NZ
+    4    7    1    0.1157    543920    ;    1.157    650    CZ-NZ
+    1    2    1    0.1470    326352    ;    1.47     390    CZ-CV
+    1    3    1    0.1470    326352    ;    1.47     390    CZ-CV
+    1    4    1    0.1470    326352    ;    1.47     390    CZ-CV
+
+    [  angles  ]                                    
+;   ai   aj   ak funct  c0(deg)  c1(kJ mol-1 rad-2)  c0(deg)  c1(kcal mol-1 rad-2)    
+    2    1    3    1    111.1    527.184    ;        111.1    63     CZ-CV-CZ
+    2    1    4    1    111.1    527.184    ;        111.1    63     CZ-CV-CZ
+    3    1    4    1    111.1    527.184    ;        111.1    63     CZ-CV-CZ
+    5    2    1    1    180.0   1255.200    ;        180.0    150    CV-CZ-NZ
+    6    3    1    1    180.0   1255.200    ;        180.0    150    CV-CZ-NZ
+    7    4    1    1    180.0   1255.200    ;        180.0    150    CV-CZ-NZ
+
+    [  dihedrals  ]                                                        
+;   ai   aj   ak   al funct    c0        c1        c2    c3 (kJ/mol) ;   V1    V2  V3    V4 (kcal/mol)    
+    2    1    3    4    5    0.0000    9.2048    0.0000    0.0000    ;    0    2.2  0    0    CZ-CV-CZ-CZ  improper
+    2    1    3    6    5    0.0000    0.0000    0.0000    0.0000    ;    0    0    0    0    CZ-CV-CZ-NZ
+    2    1    4    3    5    0.0000    9.2048    0.0000    0.0000    ;    0    2.2  0    0    CZ-CV-CZ-CZ  improper
+    2    1    4    7    5    0.0000    0.0000    0.0000    0.0000    ;    0    0    0    0    CZ-CV-CZ-NZ
+    3    1    2    4    5    0.0000    9.2048    0.0000    0.0000    ;    0    2.2  0    0    CZ-CV-CZ-CZ  improper
+    3    1    2    5    5    0.0000    0.0000    0.0000    0.0000    ;    0    0    0    0    CZ-CV-CZ-NZ
+    3    1    4    7    5    0.0000    0.0000    0.0000    0.0000    ;    0    0    0    0    CZ-CV-CZ-NZ
+    4    1    2    5    5    0.0000    0.0000    0.0000    0.0000    ;    0    0    0    0    CZ-CV-CZ-NZ
+    4    1    3    6    5    0.0000    0.0000    0.0000    0.0000    ;    0    0    0    0    CZ-CV-CZ-NZ
+

@@ -1,0 +1,19 @@
+; Dicyanamide anion [DCA]
+;
+; Ionic liquid OPLS-AA force field
+; Version 3/2017
+; Orlando Acevedo
+; Email: orlando.acevedo@miami.edu
+; Contributors: S.V. Sambasivarao, B. Doherty, X. Zhong, S. Gathiaka, B. Li
+;
+; S.V. Sambasivarao, O. Acevedo, Development of OPLS-AA Force Field Parameters for 68 Unique Ionic Liquids, J. Chem. Theory Comput., 2009, 5, 1038-1050.
+; B. Doherty, X. Zhong, S. Gathiaka, B. Li, O. Acevedo, Revisiting OPLS Force Field Parameters for Ionic Liquid Simulations, 2017, (submitted).
+;
+; Values given below for use in GROMACS 5.0.7 and in comments are traditional OPLS-AA units (e.g., angstroms, kcal/mol, degrees)
+
+    [  atomtypes  ]                                
+;  type    mass       charge ptype  sigma(nm) epsilon(kJ/mol) sigma(Ang.)  epsilon(kcal/mol)
+    N3A    14.007    -0.7262    A    0.325    0.711280    ;    3.25    0.17
+    CZA    12.011     0.6121    A    0.330    0.276144    ;    3.3     0.066
+    NZA    14.007    -0.7490    A    0.320    0.711280    ;    3.2     0.17
+

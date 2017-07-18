@@ -1,0 +1,43 @@
+; Dicyanamide anion [DCA]
+;
+; Ionic liquid OPLS-AA force field
+; Version 3/2017
+; Orlando Acevedo
+; Email: orlando.acevedo@miami.edu
+; Contributors: S.V. Sambasivarao, B. Doherty, X. Zhong, S. Gathiaka, B. Li
+;
+; S.V. Sambasivarao, O. Acevedo, Development of OPLS-AA Force Field Parameters for 68 Unique Ionic Liquids, J. Chem. Theory Comput., 2009, 5, 1038-1050.
+; B. Doherty, X. Zhong, S. Gathiaka, B. Li, O. Acevedo, Revisiting OPLS Force Field Parameters for Ionic Liquid Simulations, 2017, (submitted).
+;
+; Values given below for use in GROMACS 5.0.7 and in comments are traditional OPLS-AA units (e.g., angstroms, kcal/mol, degrees)
+
+    [  moleculetype  ]    
+;    name    nrexcl
+     DCA    3
+
+    [  atoms  ]                            
+;   nr   type resnr residu atom  cgnr  charge     mass
+    1    N3A    1    NC    N3A    1    -0.7262    14.007
+    2    CZA    1    NC    CZA    1     0.6121    12.011
+    3    CZA    1    NC    CZA    1     0.6121    12.011
+    4    NZA    1    NC    NZA    1    -0.7490    14.007
+    5    NZA    1    NC    NZA    1    -0.7490    14.007
+
+    [  bonds  ]                                
+;   ai   aj funct  c0(nm)   c1(kJ mol-1 nm-2) ro(Ang.) kr(kcal mol-1 Ang.-2)    
+    1    2    1    0.1310    420600    ;    1.310    502.6    N3-CZ
+    1    3    1    0.1310    420600    ;    1.310    502.6    N3-CZ
+    2    4    1    0.1157    543920    ;    1.157    650.0    CZ-NZ
+    3    5    1    0.1157    543920    ;    1.157    650.0    CZ-NZ
+
+    [  angles  ]                                    
+;   ai   aj   ak funct  c0(deg)  c1(kJ mol-1 rad-2)  c0(deg) c1(kcal mol-1 rad-2)    
+    1    2    4    1    175.2    425    ;    175.2    50.8    N3-CZ-NZ
+    1    3    5    1    175.2    425    ;    175.2    50.8    N3-CZ-NZ
+    2    1    3    1    118.5    362    ;    118.5    43.3    CZ-N3-CZ
+
+    [  dihedrals  ]                                                        
+;   ai   aj   ak   al funct   c0      c1      c2   c3(kJ/mol) ;    V1     V2   V3   V4(kcal/mol)    
+    4    2    1    3    5    4.08    0.00    0.00    0.00    ;    0.975    0    0    0    NZ-CZ-N3-CZ
+    5    3    1    2    5    4.08    0.00    0.00    0.00    ;    0.975    0    0    0    NZ-CZ-N3-CZ
+

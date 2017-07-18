@@ -1,0 +1,83 @@
+; Propionate anion [PROP]
+;
+; Ionic liquid OPLS-AA force field
+; Version 3/2017
+; Orlando Acevedo
+; Email: orlando.acevedo@miami.edu
+; Contributors: S.V. Sambasivarao, B. Doherty, X. Zhong, S. Gathiaka, B. Li
+;
+; S.V. Sambasivarao, O. Acevedo, Development of OPLS-AA Force Field Parameters for 68 Unique Ionic Liquids, J. Chem. Theory Comput., 2009, 5, 1038-1050.
+; B. Doherty, X. Zhong, S. Gathiaka, B. Li, O. Acevedo, Revisiting OPLS Force Field Parameters for Ionic Liquid Simulations, 2017, (submitted).
+;
+; Values given below for use in GROMACS 5.0.7 and in comments are traditional OPLS-AA units (e.g., angstroms, kcal/mol, degrees)
+
+    [  moleculetype  ]    
+;    name    nrexcl
+     PRP    3
+
+    [  atoms  ]                            
+;   nr  type resnr residu atom  cgnr   charge    mass
+    1    C     1    PRP    C1     1     0.70    12.011
+    2    O2    1    PRP    OC1    1    -0.80    15.999
+    3    O2    1    PRP    OC2    1    -0.80    15.999
+    4    CC    1    PRP    CC     1    -0.22    12.011
+    5    CD    1    PRP    CD     1    -0.18    12.011
+    6    HC    1    PRP    HCC    1     0.06    1.008
+    7    HC    1    PRP    HCD    1     0.06    1.008
+    8    HC    1    PRP    HD1    1     0.06    1.008
+    9    HC    1    PRP    HD2    1     0.06    1.008
+    10   HC    1    PRP    HD3    1     0.06    1.008
+
+    [  bonds  ]                                
+;   ai   aj funct  c0 (nm)  c1(kJ mol-1 nm-2) ro(Ang.) kr(kcal mol-1 Ang.-2)    
+    1    2    1    0.1250    548940.8    ;    1.25    656    C-O2
+    1    3    1    0.1250    548940.8    ;    1.25    656    C-O2
+    1    4    1    0.1522    265265.6    ;    1.522   317    C-CC
+    4    6    1    0.1090    284512.0    ;    1.09    340    CC-HC
+    4    7    1    0.1090    284512.0    ;    1.09    340    CC-HC
+    4    5    1    0.1529    224262.4    ;    1.529   268    CC-CD
+    5    8    1    0.1090    284512.0    ;    1.09    340    CD-HC
+    5    9    1    0.1090    284512.0    ;    1.09    340    CD-HC
+    5    10   1    0.1090    284512.0    ;    1.09    340    CD-HC
+
+    [  angles  ]                                    
+;   ai   aj   ak funct  c0(deg) c1(kJ mol-1 rad-2) c0(deg) c1(kcal mol-1 rad-2)    
+    1    4    5    1    111.1    527.184    ;    111.1    63    C-CC-CD
+    1    4    6    1    109.5    292.880    ;    109.5    35    C-CC-HC
+    1    4    7    1    109.5    292.880    ;    109.5    35    C-CC-HC
+    2    1    3    1    126.0    669.440    ;    126      80    O2-C-O2
+    2    1    4    1    117.0    585.760    ;    117      70    O2-C-CC
+    3    1    4    1    117.0    585.760    ;    117      70    O2-C-CC
+    4    5    8    1    110.7    313.800    ;    110.7    37.5  CC-CD-HC
+    4    5    9    1    110.7    313.800    ;    110.7    37.5  CC-CD-HC
+    4    5    10   1    110.7    313.800    ;    110.7    37.5  CC-CD-HC
+    5    4    7    1    110.7    313.800    ;    110.7    37.5  CD-CC-HC
+    5    4    6    1    110.7    313.800    ;    110.7    37.5  CD-CC-HC
+    6    4    7    1    107.8    276.144    ;    107.8    33    HC-CC-HC
+    8    5    9    1    107.8    276.144    ;    107.8    33    HC-CD-HC
+    8    5    10   1    107.8    276.144    ;    107.8    33    HC-CD-HC
+    9    5    10   1    107.8    276.144    ;    107.8    33    HC-CD-HC
+
+    [  dihedrals  ]                                                        
+;   ai   aj   ak   al funct   c0         c1        c2   c3(kJ/mol)   ;   V1   V2   V3     V4 (kcal/mol)    
+    1    4    5    6    5    0.0000    0.0000   -0.4184    0.0000    ;    0    0  -0.1     0    C-CC-CD-HC
+    1    4    5    7    5    0.0000    0.0000   -0.4184    0.0000    ;    0    0  -0.1     0    C-CC-CD-HC
+    1    4    5    8    5    0.0000    0.0000   -0.4184    0.0000    ;    0    0  -0.1     0    C-CC-CD-HC
+    1    4    5    9    5    0.0000    0.0000   -0.4184    0.0000    ;    0    0  -0.1     0    C-CC-CD-HC
+    1    4    5    10   5    0.0000    0.0000   -0.4184    0.0000    ;    0    0  -0.1     0    C-CC-CD-HC
+    2    1    3    4    5    0.0000    87.864    0.0000    0.0000    ;    0    21   0      0    O2-C-CC-O2  improper
+    2    1    4    5    5    0.0000    0.0000    0.0000    0.0000    ;    0    0    0      0    O2-C-CC-CD
+    2    1    4    6    5    0.0000    0.0000    0.0000    0.0000    ;    0    0    0      0    O2-C-CC-HC
+    2    1    4    7    5    0.0000    0.0000    0.0000    0.0000    ;    0    0    0      0    O2-C-CC-HC
+    3    1    4    5    5    0.0000    0.0000    0.0000    0.0000    ;    0    0    0      0    O2-C-CC-CD
+    3    1    4    6    5    0.0000    0.0000    0.0000    0.0000    ;    0    0    0      0    O2-C-CC-HC
+    3    1    4    7    5    0.0000    0.0000    0.0000    0.0000    ;    0    0    0      0    O2-C-CC-HC
+    6    4    5    7    5    0.0000    0.0000    1.2552    0.0000    ;    0    0    0.3    0    HC-CC-CD-HC
+    6    4    5    8    5    0.0000    0.0000    1.2552    0.0000    ;    0    0    0.3    0    HC-CC-CD-HC
+    6    4    5    9    5    0.0000    0.0000    1.2552    0.0000    ;    0    0    0.3    0    HC-CC-CD-HC
+    6    4    5    10   5    0.0000    0.0000    1.2552    0.0000    ;    0    0    0.3    0    HC-CC-CD-HC
+    7    4    5    6    5    0.0000    0.0000    1.2552    0.0000    ;    0    0    0.3    0    HC-CC-CD-HC
+    7    4    5    8    5    0.0000    0.0000    1.2552    0.0000    ;    0    0    0.3    0    HC-CC-CD-HC
+    7    4    5    9    5    0.0000    0.0000    1.2552    0.0000    ;    0    0    0.3    0    HC-CC-CD-HC
+    7    4    5    10   5    0.0000    0.0000    1.2552    0.0000    ;    0    0    0.3    0    HC-CC-CD-HC
+

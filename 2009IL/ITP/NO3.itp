@@ -1,0 +1,42 @@
+; Nitrate anion [NO3]
+;
+; Ionic liquid OPLS-AA force field
+; Version 3/2017
+; Orlando Acevedo
+; Email: orlando.acevedo@miami.edu
+; Contributors: S.V. Sambasivarao, B. Doherty, X. Zhong, S. Gathiaka, B. Li
+;
+; S.V. Sambasivarao, O. Acevedo, Development of OPLS-AA Force Field Parameters for 68 Unique Ionic Liquids, J. Chem. Theory Comput., 2009, 5, 1038-1050.
+; B. Doherty, X. Zhong, S. Gathiaka, B. Li, O. Acevedo, Revisiting OPLS Force Field Parameters for Ionic Liquid Simulations, 2017, (submitted).
+;
+; Values given below for use in GROMACS 5.0.7 and in comments are traditional OPLS-AA units (e.g., angstroms, kcal/mol, degrees)
+
+    [  moleculetype  ]    
+;    name    nrexcl
+     NO3    3
+
+    [  atoms  ]                            
+;   nr type resnr residu atom cgnr  charge    mass
+    1    N    1    NO3    N    1     0.794    14.007
+    2    O    1    NO3    O    1    -0.598    15.999
+    3    O    1    NO3    O    1    -0.598    15.999
+    4    O    1    NO3    O    1    -0.598    15.999
+
+    [  bonds  ]                                
+;   ai   aj funct  c0(nm)    c1(kJ mol-1 nm-2) ro(Ang.)  kr(kcal mol-1 Ang.-2)    
+    1    2    1    0.1256    530698.56    ;    1.256    634.2    N-O
+    1    3    1    0.1256    530698.56    ;    1.256    634.2    N-O
+    1    4    1    0.1256    530698.56    ;    1.256    634.2    N-O
+
+    [  angles  ]                                    
+;   ai   aj   ak funct c0(deg)  c1(kJ mol-1 rad-2) c0(deg)  c1(kcal mol-1 rad-2)    
+    2    1    3    1    120    1011.022    ;    120    120.82    O-N-O
+    2    1    4    1    120    1011.022    ;    120    120.82    O-N-O
+    3    1    4    1    120    1011.022    ;    120    120.82    O-N-O
+
+    [  dihedrals  ]                                                            
+;   ai   aj   ak   al funct   c0        c1      c2    c3(kJ/mol) ;   V1   V2   V3   V4(kcal/mol)        
+    2    1    3    4    5    0.000    8.368    0.000    0.000    ;    0    2    0    0    O-N-O-O  improper    
+    3    1    2    4    5    0.000    8.368    0.000    0.000    ;    0    2    0    0    O-N-O-O  improper    
+    4    1    2    3    5    0.000    8.368    0.000    0.000    ;    0    2    0    0    O-N-O-O  improper
+

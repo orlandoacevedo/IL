@@ -1,0 +1,41 @@
+; Perchlorate anion [ClO4]
+;
+; Ionic liquid OPLS-AA force field
+; Version 3/2017
+; Orlando Acevedo
+; Email: orlando.acevedo@miami.edu
+; Contributors: S.V. Sambasivarao, B. Doherty, X. Zhong, S. Gathiaka, B. Li
+;
+; S.V. Sambasivarao, O. Acevedo, Development of OPLS-AA Force Field Parameters for 68 Unique Ionic Liquids, J. Chem. Theory Comput., 2009, 5, 1038-1050.
+; B. Doherty, X. Zhong, S. Gathiaka, B. Li, O. Acevedo, Revisiting OPLS Force Field Parameters for Ionic Liquid Simulations, 2017, (submitted).
+;
+; Values given below for use in GROMACS 5.0.7 and in comments are traditional OPLS-AA units (e.g., angstroms, kcal/mol, degrees)
+
+    [  moleculetype  ]    
+;    name   nrexcl
+     CLO     3
+
+    [ atoms ]                            
+;   nr  type  resnr residu  atom  cgnr  charge    mass
+    1    Clc    1    CLO    Cl1    1     1.176    35.45
+    2    Oc     1    CLO    O1     1    -0.544    15.99
+    3    Oc     1    CLO    O2     1    -0.544    15.99
+    4    Oc     1    CLO    O3     1    -0.544    15.99
+    5    Oc     1    CLO    O4     1    -0.544    15.99
+
+    [  bonds  ]                                
+;   ai   aj funct  c0(nm)  c1(kJ mol-1 nm-2) ro(Ang.) kr(kcal mol-1 Ang.-2)    
+    1    2    1    0.1506    633959.68    ;    1.506    757.6    Clc-Oc
+    1    3    1    0.1506    633959.68    ;    1.506    757.6    Clc-Oc
+    1    4    1    0.1506    633959.68    ;    1.506    757.6    Clc-Oc
+    1    5    1    0.1506    633959.68    ;    1.506    757.6    Clc-Oc
+
+    [  angles  ]                                    
+;   ai   aj   ak funct c0(deg)  c1(kJ mol-1 rad-2) c0(deg) c1(kcal mol-1 rad-2)    
+    2    1    3    1    109.5    1739.707    ;    109.5    207.9    Oc-Clc-Oc
+    2    1    4    1    109.5    1739.707    ;    109.5    207.9    Oc-Clc-Oc
+    2    1    5    1    109.5    1739.707    ;    109.5    207.9    Oc-Clc-Oc
+    3    1    4    1    109.5    1739.707    ;    109.5    207.9    Oc-Clc-Oc
+    3    1    5    1    109.5    1739.707    ;    109.5    207.9    Oc-Clc-Oc
+    4    1    5    1    109.5    1739.707    ;    109.5    207.9    Oc-Clc-Oc
+
