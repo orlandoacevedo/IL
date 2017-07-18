@@ -46,10 +46,9 @@ Parameters Available
     * tricyanomethanide [TCM]
     * trifluoromethanesulfonate [TFO]
     
-* **2009IL** - unscaled OPLS-2009IL charges
-    * itp, top, and pdb folders
+* **2009IL** - unscaled OPLS-2009IL bonded and nonbonded parameters
   
-* **0.8*2009IL** - 0.8-scaled OPLS-2009IL charges
+* **0.8*2009IL** - 0.8-scaled OPLS-2009IL bonded and nonbonded parameters
     * itp, top, and pdb folders
 
 Tutorial
@@ -67,7 +66,7 @@ About
 -----
 **Contributing Authors**: Brian Doherty, Symon Gathiaka, Bin Li, S.V. Sambasivarao, Xiang Zhong, and Orlando Acevedo*
 
-**Funding**: Gratitude is expressed to the National Science Foundation (NSF CHE-1562205) for funding the project.
+**Funding**: Gratitude is expressed to the National Science Foundation (NSF CHE-1562205 and NSF CHE-1149604) for funding the project.
 
 **Software License**:
 OPLS-2009IL.
