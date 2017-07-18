@@ -1,0 +1,42 @@
+TITLE     [NPF2] -- Bis(pentafluoroethylsulfonyl)amide
+REMARK   7
+REMARK   7 Ionic liquid OPLS-AA force field
+REMARK   8
+REMARK   8 Version 3/2017
+REMARK   9
+REMARK   9 Orlando Acevedo
+REMARK  10
+REMARK  10 Email: orlando.acevedo@miami.edu
+REMARK  11
+REMARK  11 Contributors: S.V. Sambasivarao, B. Doherty, X. Zhong,
+REMARK  11 S. Gathiaka, B. Li
+REMARK  12
+REMARK  12 S.V. Sambasivarao, O. Acevedo, Development of OPLS-AA 
+REMARK  12 Force Field Parameters for 68 Unique Ionic Liquids,
+REMARK  12 J. Chem. Theory Comput., 2009, 5, 1038-1050.
+REMARK  13
+REMARK  13 B. Doherty, X. Zhong, S. Gathiaka, B. Li, O. Acevedo, 
+REMARK  13 Revisiting OPLS Force Field Parameters for Ionic
+REMARK  13 Liquid Simulations, 2017, (submitted).
+ATOM      1  N   NPF2    1      -0.045   1.147  -0.622                       N
+ATOM      2  SO1 NPF2    1       1.476   1.224  -0.257                       S                
+ATOM      3 O21A NPF2    1       2.204   1.743  -1.371                       O                
+ATOM      4 O21B NPF2    1       1.764   1.736   1.048                       O                
+ATOM      5  SO2 NPF2    1      -1.278   1.051   0.352                       S                
+ATOM      6 O22A NPF2    1      -1.017   0.521   1.656                       O                
+ATOM      7 O22B NPF2    1      -2.130   2.196   0.250                       O                
+ATOM      8  C1A NPF2    1       1.999  -0.530  -0.189                       C               
+ATOM      9 F1A1 NPF2    1       1.858  -1.068  -1.397                       F                
+ATOM     10 F1A2 NPF2    1       1.229  -1.201   0.660                       F                
+ATOM     11  C1B NPF2    1      -2.201  -0.272  -0.511                       C               
+ATOM     12 F1B1 NPF2    1      -2.551   0.147  -1.722                       F                
+ATOM     13 F1B2 NPF2    1      -1.427  -1.344  -0.640                       F                
+ATOM     14  C2A NPF2    1       3.448  -0.789   0.243                       C                
+ATOM     15 F2A1 NPF2    1       4.306  -0.144  -0.511                       F                
+ATOM     16 F2A2 NPF2    1       3.694  -2.083   0.125                       F                
+ATOM     17 F2A3 NPF2    1       3.648  -0.454   1.494                       F                
+ATOM     18  C2B NPF2    1      -3.487  -0.750   0.176                       C                
+ATOM     19 F2B1 NPF2    1      -3.237  -1.339   1.320                       F                
+ATOM     20 F2B2 NPF2    1      -4.328   0.235   0.380                       F                
+ATOM     21 F2B3 NPF2    1      -4.076  -1.633  -0.613                       F                
+END

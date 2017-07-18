@@ -1,0 +1,29 @@
+TITLE     [ACE] -- Acetate
+REMARK   7
+REMARK   7 Ionic liquid OPLS-AA force field
+REMARK   8
+REMARK   8 Version 3/2017
+REMARK   9
+REMARK   9 Orlando Acevedo
+REMARK  10
+REMARK  10 Email: orlando.acevedo@miami.edu
+REMARK  11
+REMARK  11 Contributors: S.V. Sambasivarao, B. Doherty, X. Zhong,
+REMARK  11 S. Gathiaka, B. Li
+REMARK  12
+REMARK  12 S.V. Sambasivarao, O. Acevedo, Development of OPLS-AA 
+REMARK  12 Force Field Parameters for 68 Unique Ionic Liquids,
+REMARK  12 J. Chem. Theory Comput., 2009, 5, 1038-1050.
+REMARK  13
+REMARK  13 B. Doherty, X. Zhong, S. Gathiaka, B. Li, O. Acevedo, 
+REMARK  13 Revisiting OPLS Force Field Parameters for Ionic
+REMARK  13 Liquid Simulations, 2017, (submitted).
+ATOM      1  CZ  ACE     1      -0.162   0.384   0.226                       C
+ATOM      2  C   ACE     1       0.450   1.325   1.247                       C
+ATOM      3  H   ACE     1       0.066   2.331   1.089                       H
+ATOM      4  H   ACE     1       0.190   0.991   2.251                       H
+ATOM      5  H   ACE     1       1.533   1.328   1.135                       H
+ATOM      6  O   ACE     1      -1.308   0.717  -0.142                       O
+ATOM      7  O   ACE     1       0.530  -0.595  -0.125                       O
+END
+

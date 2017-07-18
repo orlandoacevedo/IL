@@ -1,0 +1,30 @@
+TITLE     [MS] -- Methylsulfate
+REMARK   7
+REMARK   7 Ionic liquid OPLS-AA force field
+REMARK   8
+REMARK   8 Version 3/2017
+REMARK   9
+REMARK   9 Orlando Acevedo
+REMARK  10
+REMARK  10 Email: orlando.acevedo@miami.edu
+REMARK  11
+REMARK  11 Contributors: S.V. Sambasivarao, B. Doherty, X. Zhong,
+REMARK  11 S. Gathiaka, B. Li
+REMARK  12
+REMARK  12 S.V. Sambasivarao, O. Acevedo, Development of OPLS-AA 
+REMARK  12 Force Field Parameters for 68 Unique Ionic Liquids,
+REMARK  12 J. Chem. Theory Comput., 2009, 5, 1038-1050.
+REMARK  13
+REMARK  13 B. Doherty, X. Zhong, S. Gathiaka, B. Li, O. Acevedo, 
+REMARK  13 Revisiting OPLS Force Field Parameters for Ionic
+REMARK  13 Liquid Simulations, 2017, (submitted).
+ATOM      1  O1   MS     1       0.000   0.000   0.000                       O
+ATOM      2  S1   MS     1       0.000   0.000   1.632                       S
+ATOM      3  C1   MS     1       1.255   0.000  -0.618                       C
+ATOM      4  O1A  MS     1       0.704   1.214   1.970                       O
+ATOM      5  O1B  MS     1      -1.403  -0.003   1.970                       O
+ATOM      6  O1C  MS     1       0.707  -1.212   1.970                       O
+ATOM      7  H1A  MS     1       1.800  -0.892  -0.331                       H
+ATOM      8  H1B  MS     1       1.800   0.893  -0.332                       H
+ATOM      9  H1C  MS     1       1.130  -0.002  -1.694                       H
+END

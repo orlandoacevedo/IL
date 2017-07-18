@@ -1,0 +1,29 @@
+TITLE     [TFO] -- Triflate
+REMARK   7
+REMARK   7 Ionic liquid OPLS-AA force field
+REMARK   8
+REMARK   8 Version 3/2017
+REMARK   9
+REMARK   9 Orlando Acevedo
+REMARK  10
+REMARK  10 Email: orlando.acevedo@miami.edu
+REMARK  11
+REMARK  11 Contributors: S.V. Sambasivarao, B. Doherty, X. Zhong,
+REMARK  11 S. Gathiaka, B. Li
+REMARK  12
+REMARK  12 S.V. Sambasivarao, O. Acevedo, Development of OPLS-AA 
+REMARK  12 Force Field Parameters for 68 Unique Ionic Liquids,
+REMARK  12 J. Chem. Theory Comput., 2009, 5, 1038-1050.
+REMARK  13
+REMARK  13 B. Doherty, X. Zhong, S. Gathiaka, B. Li, O. Acevedo, 
+REMARK  13 Revisiting OPLS Force Field Parameters for Ionic
+REMARK  13 Liquid Simulations, 2017, (submitted).
+ATOM      1  CF  TFO     1       0.000   0.000   0.000                       C
+ATOM      2  SB  TFO     1       0.000   0.000   1.819                       S
+ATOM      3  FB  TFO     1       1.229   0.000  -0.491                       F
+ATOM      4  FB  TFO     1      -0.615  -1.064  -0.491                       F
+ATOM      5  FB  TFO     1      -0.614   1.064  -0.491                       F
+ATOM      6  OB  TFO     1       0.704  -1.219   2.137                       O
+ATOM      7  OB  TFO     1      -1.407  -0.000   2.137                       O
+ATOM      8  OB  TFO     1       0.703   1.219   2.136                       O
+END

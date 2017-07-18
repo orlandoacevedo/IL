@@ -1,0 +1,31 @@
+TITLE     [PROP] -- Propionate
+REMARK   7
+REMARK   7 Ionic liquid OPLS-AA force field
+REMARK   8
+REMARK   8 Version 3/2017
+REMARK   9
+REMARK   9 Orlando Acevedo
+REMARK  10
+REMARK  10 Email: orlando.acevedo@miami.edu
+REMARK  11
+REMARK  11 Contributors: S.V. Sambasivarao, B. Doherty, X. Zhong,
+REMARK  11 S. Gathiaka, B. Li
+REMARK  12
+REMARK  12 S.V. Sambasivarao, O. Acevedo, Development of OPLS-AA 
+REMARK  12 Force Field Parameters for 68 Unique Ionic Liquids,
+REMARK  12 J. Chem. Theory Comput., 2009, 5, 1038-1050.
+REMARK  13
+REMARK  13 B. Doherty, X. Zhong, S. Gathiaka, B. Li, O. Acevedo, 
+REMARK  13 Revisiting OPLS Force Field Parameters for Ionic
+REMARK  13 Liquid Simulations, 2017, (submitted).
+ATOM      1  C1  PRP     1       0.000   0.000   0.000                       C
+ATOM      2  OC1 PRP     1       1.080   0.000   0.623                       O
+ATOM      3  OC2 PRP     1      -1.115  -0.000   0.557                       O
+ATOM      4  CC  PRP     1       0.046   0.008  -1.521                       C
+ATOM      5  CD  PRP     1       0.062   1.434  -2.092                       C
+ATOM      6  HCC PRP     1      -0.819  -0.540  -1.894                       H
+ATOM      7  HCD PRP     1       0.932  -0.539  -1.841                       H
+ATOM      8  HD1 PRP     1       0.095   1.423  -3.180                       H
+ATOM      9  HD2 PRP     1       0.932   1.981  -1.727                       H
+ATOM     10  HD3 PRP     1      -0.828   1.980  -1.779                       H
+END

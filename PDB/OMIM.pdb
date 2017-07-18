@@ -1,0 +1,58 @@
+TITLE     [OMIM] -- 1-octyl-3-methylimidazolium
+REMARK   7
+REMARK   7 Ionic liquid OPLS-AA force field
+REMARK   8
+REMARK   8 Version 3/2017
+REMARK   9
+REMARK   9 Orlando Acevedo
+REMARK  10
+REMARK  10 Email: orlando.acevedo@miami.edu
+REMARK  11
+REMARK  11 Contributors: S.V. Sambasivarao, B. Doherty, X. Zhong,
+REMARK  11 S. Gathiaka, B. Li
+REMARK  12
+REMARK  12 S.V. Sambasivarao, O. Acevedo, Development of OPLS-AA 
+REMARK  12 Force Field Parameters for 68 Unique Ionic Liquids,
+REMARK  12 J. Chem. Theory Comput., 2009, 5, 1038-1050.
+REMARK  13
+REMARK  13 B. Doherty, X. Zhong, S. Gathiaka, B. Li, O. Acevedo, 
+REMARK  13 Revisiting OPLS Force Field Parameters for Ionic
+REMARK  13 Liquid Simulations, 2017, (submitted).
+HETATM    1  N02 OMI     1      -0.100  -0.755  -0.694                       N
+HETATM    2  N00 OMI     1       0.007   1.300  -0.165                       N
+HETATM    3  C01 OMI     1      -0.029   0.460  -1.158                       C
+HETATM    4  H07 OMI     1      -0.003   0.726  -2.194                       H
+HETATM    5  C04 OMI     1      -0.083  -0.695   0.640                       C
+HETATM    6  H09 OMI     1      -0.111  -1.525   1.314                       H
+HETATM    7  C03 OMI     1      -0.026   0.607   0.975                       C
+HETATM    8  H08 OMI     1      -0.008   1.009   1.966                       H
+HETATM    9  C05 OMI     1       0.074   2.764  -0.279                       C
+HETATM   10  H0B OMI     1      -0.411   3.210   0.564                       H
+HETATM   11  H0C OMI     1      -0.415   3.075  -1.178                       H
+HETATM   12  H0D OMI     1       1.099   3.073  -0.304                       H
+HETATM   13  C06 OMI     1      -0.094  -1.984  -1.499                       C
+HETATM   14  H0E OMI     1      -0.979  -2.550  -1.294                       H
+HETATM   15  H0F OMI     1       0.768  -2.568  -1.252                       H
+HETATM   16  C0G OMI     1      -0.054  -1.619  -2.995                       C
+HETATM   17  H0H OMI     1       0.831  -1.053  -3.200                       H
+HETATM   18  H0I OMI     1      -0.915  -1.034  -3.242                       H
+HETATM   19  C0J OMI     1      -0.047  -2.907  -3.839                       C
+HETATM   20  H0K OMI     1      -0.932  -3.472  -3.633                       H
+HETATM   21  H0M OMI     1       0.815  -3.491  -3.591                       H
+HETATM   22  C0N OMI     1      -0.007  -2.541  -5.334                       C
+HETATM   23  H0O OMI     1       0.878  -1.976  -5.539                       H
+HETATM   24  H0P OMI     1      -0.869  -1.957  -5.581                       H
+HETATM   25  C0Q OMI     1      -0.000  -3.829  -6.178                       C
+HETATM   26  H0R OMI     1       0.861  -4.413  -5.930                       H
+HETATM   27  H0S OMI     1      -0.885  -4.395  -5.972                       H
+HETATM   28  C0T OMI     1       0.040  -3.463  -7.673                       C
+HETATM   29  H0U OMI     1       0.925  -2.898  -7.878                       H
+HETATM   30  H0V OMI     1      -0.822  -2.879  -7.920                       H
+HETATM   31  C0W OMI     1       0.046  -4.752  -8.517                       C
+HETATM   32  H0X OMI     1       0.908  -5.336  -8.269                       H
+HETATM   33  H0Y OMI     1      -0.839  -5.317  -8.311                       H
+HETATM   34  C0Z OMI     1       0.087  -4.386 -10.012                       C
+HETATM   35  H00 OMI     1       0.972  -3.820 -10.217                       H
+HETATM   36  H01 OMI     1       0.091  -5.281 -10.598                       H
+HETATM   37  H02 OMI     1      -0.775  -3.802 -10.260                       H
+END
