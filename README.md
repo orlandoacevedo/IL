@@ -63,7 +63,7 @@ Parameters Available
 
 Tutorial
 --------
-Example on setting up an ionic liquid MD simulation is coming soon...
+A brief tutorial is provided in the Tutorial_[BMIM][BF4] directory. A README file will guide the user through the contruction of a [BMIM][BF4] box composed of 500 ion pairs using the OPLS-2009IL parameter set. GROMACS input files are provided to run a 40 ns MD simulation and output files are also provided for comparison. The user is guided on how to compute both the density and the heat of vaporization for the ionic liquid system.
 
 
 References
