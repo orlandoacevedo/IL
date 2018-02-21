@@ -1,0 +1,7 @@
+
+Statistics over 40000001 steps [ 5000.0000 through 45000.0000 ps ], 1 data sets
+All statistics are over 400001 points
+
+Energy                      Average   Err.Est.       RMSD  Tot-Drift
+-------------------------------------------------------------------------------
+Potential                  -79091.1         26    390.186    -64.871  (kJ/mol)

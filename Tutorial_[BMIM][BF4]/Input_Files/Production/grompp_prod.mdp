@@ -1,0 +1,58 @@
+; RUN CONTROL PARAMETERS =
+
+integrator = md       ; md integrator
+tinit = 5000             ; [ps] starting time for run
+dt = 0.001            ; [ps] time step for integration
+nsteps = 40000000      ; maximum number of steps to integrate
+comm-mode = Linear    ; Remove center of mass translation
+
+; OUTPUT CONTROL OPTIONS =
+nstxout = 25000         ; [steps] freq to write coordinates to trajectory
+nstvout = 25000         ; [steps] freq to write velocities to trajectory  
+nstfout = 25000           ; [steps] freq to write forces to trajectory
+nstlog = 2000          ; [steps] freq to write energies to log file  
+nstenergy = 10000        ; group(s) to write to energy file
+nstxout-compressed = 10000 ; freq to write coordinates to xtc trajectory
+
+
+; NEIGHBORSEARCHING PARAMETERS =
+cutoff-scheme = verlet ; This option has an explicit, exact cut-off at rvdw=rcoulomb.
+nstlist = 20           ; [steps] freq to update neighbor list
+ns_type = grid         ; method of updating neighbor list
+pbc = xyz              ; periodic boundary conditions in all directions 
+rlist = 1.3            ; [nm] cut-off distance for the short-range neighbor list
+verlet-buffer-tolerance = 0.005  ; sets the maximum allowed error for pair interactions per particle. Indirectly sets rlist
+
+; OPTIONS FOR ELECTROSTATICS AND VDW =
+coulombtype = PME     ; Particle-Mesh Ewald electrostatics
+rcoulomb = 1.3        ; [nm] distance for Coulomb cut-off
+vdw_type = PME        ; twin-range cut-off with rlist where rvdw >= rlist
+rvdw = 1.3            ; [nm] distance for LJ cut-off 
+fourierspacing = 0.15 ; [nm] grid spacing for FFT grid when using PME
+pme_order = 4         ; interpolation order for PME, 4 = cubic
+ewald_rtol = 1e-05    ; relative strength of Ewald-shifted potential at rcoulomb
+
+; OPTIONS FOR WEAK COUPLING ALGORITHMS =
+tcoupl = v-rescale    ; temperature coupling method 
+tc-grps = System      ; groups to couple seperately to temperature bath
+tau_t = 1.0           ; [ps] time constant for coupling
+ref_t = 298.15         ; reference temperature for coupling
+Pcoupl = Berendsen    ; pressure coupling method
+Pcoupltype = isotropic  ; pressure coupling in x-y-z directions
+tau_p = 1.0           ; [ps] time constant for coupling
+compressibility = 4.5e-5   ; [bar^-1] compressibility
+ref_p = 1.0 ; bar     ; reference pressure for coupling
+
+; GENERATE VELOCITIES FOR STARTUP RUN =
+gen_vel = no      ; velocity generation turned on
+
+; OPTIONS FOR BONDS =
+constraints = hbonds
+constraint_algorithm = lincs
+unconstrained_start = no
+shake_tol = 0.00001
+lincs_order = 4
+lincs_warnangle = 30
+morse = no
+lincs_iter = 2
+
