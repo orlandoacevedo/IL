@@ -1,14 +1,21 @@
-Ionic liquid force field parameters (OPLS-2009IL)
+Ionic liquid force field parameters (OPLS-2009IL and OPLS-VSIL)
 =================================================
 
 [Orlando Acevedo](http://www.acevedoresearch.com), University of Miami
 
-**OPLS-AA force field parameters for ionic liquid simulations.**
+This repository holds two different sets of OPLS-AA parameters for use in ionic liquid simulations. 
 
-Please reference the following papers:
-
+**1) Unscaled and 0.8 scaled OPLS-AA force field parameters (2009IL).**
+Please see the following references for technical details:
 1. [doi:10.1021/ct900009a](http://pubs.acs.org/doi/abs/10.1021/ct900009a)
 2. [doi:10.1021/acs.jctc.7b00520](http://pubs.acs.org/doi/abs/10.1021/acs.jctc.7b00520)
+
+**2) Virtual site OPLS-AA force field parameters (VSIL).**
+Please see the following reference for technical details:
+
+3. (Under review for publication)
+
+**IMPORTANT**: The 2009IL and VSIL parameters should NOT be mixed! VSIL anion parameters were specifically parameterized to work exclusively with the virtual site cations.
 
 Requirements
 ------------
@@ -50,6 +57,8 @@ Parameters Available
 * **2009IL** - unscaled OPLS-2009IL bonded and nonbonded parameters
   
 * **0.8*2009IL** - 0.8-scaled OPLS-2009IL bonded and nonbonded parameters
+
+* **VSIL** - Virtual site OPLS bonded and nonbonded parameters
     * itp, top, and pdb folders
 
 Tutorial
@@ -63,6 +72,8 @@ Sambasivarao, S.V.; Acevedo, O. "Development of OPLS-AA Force Field Parameters f
 
 Doherty, B.; Zhong, X.; Gathiaka, S.; Li, B.; Acevedo, O. "Revisiting OPLS Force Field Parameters for Ionic Liquid Simulations." *J. Chem. Theory Comput.*, **2017**, *13*, 6131-6145. [doi:10.1021/acs.jctc.7b00520](http://pubs.acs.org/doi/abs/10.1021/acs.jctc.7b00520)
 
+Doherty, B.; Zhong, X.; Acevedo, O. "A Virtual Site OPLS Force Field for Imidazolium-Based Ionic Liquids" **2018**, (under review).
+
 About
 -----
 **Contributing Authors**: Brian Doherty, Symon Gathiaka, Bin Li, S.V. Sambasivarao, Xiang Zhong, and Orlando Acevedo*
@@ -70,8 +81,8 @@ About
 **Funding**: Gratitude is expressed to the National Science Foundation (NSF CHE-1562205 and NSF CHE-1149604) for funding the project.
 
 **Software License**:
-OPLS-2009IL.
-Copyright (C) 2017  Orlando Acevedo
+OPLS-2009IL and OPLS-VSIL.
+Copyright (C) 2018 Orlando Acevedo
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
