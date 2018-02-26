@@ -13,7 +13,7 @@ Please see the following references for technical details:
 **2) Virtual site OPLS-AA force field parameters (VSIL).**
 Please see the following reference for technical details:
 
-3. (Under review for publication)
+3. [doi:10.1021/acs.jpcb.7b11996](http://pubs.acs.org/doi/abs/10.1021/acs.jpcb.7b11996)
 
 **IMPORTANT**: The 2009IL and VSIL parameters should NOT be mixed! VSIL anion parameters were specifically parameterized to work exclusively with the virtual site cations.
 
@@ -72,7 +72,7 @@ Sambasivarao, S.V.; Acevedo, O. "Development of OPLS-AA Force Field Parameters f
 
 Doherty, B.; Zhong, X.; Gathiaka, S.; Li, B.; Acevedo, O. "Revisiting OPLS Force Field Parameters for Ionic Liquid Simulations." *J. Chem. Theory Comput.*, **2017**, *13*, 6131-6145. [doi:10.1021/acs.jctc.7b00520](http://pubs.acs.org/doi/abs/10.1021/acs.jctc.7b00520)
 
-Doherty, B.; Zhong, X.; Acevedo, O. "A Virtual Site OPLS Force Field for Imidazolium-Based Ionic Liquids" **2018**, (under review).
+Doherty, B.; Zhong, X.; Acevedo, O. "A Virtual Site OPLS Force Field for Imidazolium-Based Ionic Liquids" *J. Phys. Chem. B*, **2018**, *122*, (in press).
 
 About
 -----
