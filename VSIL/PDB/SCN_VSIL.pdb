@@ -1,0 +1,13 @@
+TITLE     [SCN] -- Thiocyanate
+REMARK Ionic liquid OPLS-VSIL force field
+REMARK Version 2/2018
+REMARK Orlando Acevedo
+REMARK Email: orlando.acevedo@miami.edu
+REMARK Contributors: B. Doherty, X. Zhong
+REMARK
+REMARK B. Doherty, X. Zhong, O. Acevedo, A Virtual Site OPLS Force Field for Imidazolium-Based Ionic Liquids. J. Phys. Chem. B, 2018, 122, (in press). doi:10.1021/acs.jpcb.7b11996.
+
+ATOM      1 NZ   SCN     1       0.847   0.021   0.000                       N
+ATOM      2 CZ   SCN     1      -0.302   0.021   0.000                       C
+ATOM      3  S   SCN     1      -1.989   0.021   0.000                       S
+END

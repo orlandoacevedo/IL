@@ -1,0 +1,11 @@
+TITLE     [Br] -- Bromide
+REMARK Ionic liquid OPLS-VSIL force field
+REMARK Version 2/2018
+REMARK Orlando Acevedo
+REMARK Email: orlando.acevedo@miami.edu
+REMARK Contributors: B. Doherty, X. Zhong
+REMARK
+REMARK B. Doherty, X. Zhong, O. Acevedo, A Virtual Site OPLS Force Field for Imidazolium-Based Ionic Liquids. J. Phys. Chem. B, 2018, 122, (in press). doi:10.1021/acs.jpcb.7b11996.
+
+ATOM      1 Br           1      -0.376   0.358   0.000                      Br
+END

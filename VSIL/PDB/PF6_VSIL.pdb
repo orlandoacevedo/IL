@@ -1,0 +1,17 @@
+TITLE     [PF6] -- Hexafluorophosphate
+REMARK Ionic liquid OPLS-VSIL force field
+REMARK Version 2/2018
+REMARK Orlando Acevedo
+REMARK Email: orlando.acevedo@miami.edu
+REMARK Contributors: B. Doherty, X. Zhong
+REMARK
+REMARK B. Doherty, X. Zhong, O. Acevedo, A Virtual Site OPLS Force Field for Imidazolium-Based Ionic Liquids. J. Phys. Chem. B, 2018, 122, (in press). doi:10.1021/acs.jpcb.7b11996.
+
+ATOM      1  P   PF6     1      -0.082  -0.291   0.000                       P
+ATOM      2  F   PF6     1      -0.082   1.339   0.000                       F
+ATOM      3  F   PF6     1      -0.082  -0.291  -1.630                       F
+ATOM      4  F   PF6     1       1.548  -0.291   0.000                       F
+ATOM      5  F   PF6     1      -0.082  -1.921   0.000                       F
+ATOM      6  F   PF6     1      -0.082  -0.291   1.630                       F
+ATOM      7  F   PF6     1      -1.712  -0.291   0.000                       F
+END

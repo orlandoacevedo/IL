@@ -1,0 +1,19 @@
+TITLE     [MS] -- Methylsulfate
+REMARK Ionic liquid OPLS-VSIL force field
+REMARK Version 2/2018
+REMARK Orlando Acevedo
+REMARK Email: orlando.acevedo@miami.edu
+REMARK Contributors: B. Doherty, X. Zhong
+REMARK
+REMARK B. Doherty, X. Zhong, O. Acevedo, A Virtual Site OPLS Force Field for Imidazolium-Based Ionic Liquids. J. Phys. Chem. B, 2018, 122, (in press). doi:10.1021/acs.jpcb.7b11996.
+
+ATOM      1  O1   MS     1       0.000   0.000   0.000                       O
+ATOM      2  S1   MS     1       0.000   0.000   1.632                       S
+ATOM      3  C1   MS     1       1.255   0.000  -0.618                       C
+ATOM      4  O1A  MS     1       0.704   1.214   1.970                       O
+ATOM      5  O1B  MS     1      -1.403  -0.003   1.970                       O
+ATOM      6  O1C  MS     1       0.707  -1.212   1.970                       O
+ATOM      7  H1A  MS     1       1.800  -0.892  -0.331                       H
+ATOM      8  H1B  MS     1       1.800   0.893  -0.332                       H
+ATOM      9  H1C  MS     1       1.130  -0.002  -1.694                       H
+END

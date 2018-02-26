@@ -1,0 +1,15 @@
+TITLE     [DCA] -- Dicyanamide
+REMARK Ionic liquid OPLS-VSIL force field
+REMARK Version 2/2018
+REMARK Orlando Acevedo
+REMARK Email: orlando.acevedo@miami.edu
+REMARK Contributors: B. Doherty, X. Zhong
+REMARK
+REMARK B. Doherty, X. Zhong, O. Acevedo, A Virtual Site OPLS Force Field for Imidazolium-Based Ionic Liquids. J. Phys. Chem. B, 2018, 122, (in press). doi:10.1021/acs.jpcb.7b11996.
+
+ATOM      1  N3A NC      1       0.285   0.753  -0.003                       N
+ATOM      2  CZA NC      1       0.185   0.033   1.177                       C 
+ATOM      3  CZA NC      1       0.276   0.093  -1.222                       C 
+ATOM      4  NZA NC      1       0.102  -0.568   2.163                       N 
+ATOM      5  NZA NC      1       0.269  -0.457  -2.240                       N 
+END

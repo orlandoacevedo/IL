@@ -1,0 +1,15 @@
+TITLE     [BF4] -- Tetrafluoroborate
+REMARK Ionic liquid OPLS-VSIL force field
+REMARK Version 2/2018
+REMARK Orlando Acevedo
+REMARK Email: orlando.acevedo@miami.edu
+REMARK Contributors: B. Doherty, X. Zhong
+REMARK
+REMARK B. Doherty, X. Zhong, O. Acevedo, A Virtual Site OPLS Force Field for Imidazolium-Based Ionic Liquids. J. Phys. Chem. B, 2018, 122, (in press). doi:10.1021/acs.jpcb.7b11996.
+
+ATOM      1  B   BF4     1       1.290  -0.392  -0.010                       B
+ATOM      2  F   BF4     1       0.226  -1.449  -0.054                       F              
+ATOM      3  F   BF4     1       2.641  -1.042  -0.048                       F              
+ATOM      4  F   BF4     1       1.140   0.519  -1.191                       F              
+ATOM      5  F   BF4     1       1.152   0.402   1.255                       F              
+END

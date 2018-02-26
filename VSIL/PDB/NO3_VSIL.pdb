@@ -1,0 +1,14 @@
+TITLE     [NO3] -- Nitrate
+REMARK Ionic liquid OPLS-VSIL force field
+REMARK Version 2/2018
+REMARK Orlando Acevedo
+REMARK Email: orlando.acevedo@miami.edu
+REMARK Contributors: B. Doherty, X. Zhong
+REMARK
+REMARK B. Doherty, X. Zhong, O. Acevedo, A Virtual Site OPLS Force Field for Imidazolium-Based Ionic Liquids. J. Phys. Chem. B, 2018, 122, (in press). doi:10.1021/acs.jpcb.7b11996.
+
+ATOM      1  N           1      -0.808  -0.588  -0.000                       N
+ATOM      2  O           1      -0.930  -1.789   0.204                       O
+ATOM      3  O           1      -1.036  -0.129  -1.113                       O
+ATOM      4  O           1      -0.459   0.170   0.897                       O
+END
