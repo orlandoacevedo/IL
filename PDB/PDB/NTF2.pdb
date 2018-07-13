@@ -1,0 +1,38 @@
+TITLE     [NTF2] -- Bis(trifluoromethylsulfonyl)amide
+REMARK   7
+REMARK   7 Ionic liquid OPLS-AA force field
+REMARK   8
+REMARK   8 Version 3/2017
+REMARK   9
+REMARK   9 Orlando Acevedo
+REMARK  10
+REMARK  10 Email: orlando.acevedo@miami.edu
+REMARK  11
+REMARK  11 Contributors: S.V. Sambasivarao, B. Doherty, X. Zhong,
+REMARK  11 S. Gathiaka, B. Li
+REMARK  12
+REMARK  12 S.V. Sambasivarao, O. Acevedo, Development of OPLS-AA
+REMARK  12 Force Field Parameters for 68 Unique Ionic Liquids,
+REMARK  12 J. Chem. Theory Comput., 2009, 5, 1038-1050.
+REMARK  13
+REMARK  13 B. Doherty, X. Zhong, S. Gathiaka, B. Li, O. Acevedo,
+REMARK  13 Revisiting OPLS Force Field Parameters for Ionic
+REMARK  13 Liquid Simulations,
+REMARK  13 J. Chem. Theory Comput., 2017, 13, 6131-6145.
+ATOM      1  NBT NSC     1      -0.140  -0.790  -0.070                       N
+ATOM      2  SBT NSC     1      -1.730  -0.500  -0.010                       S
+ATOM      3  SBT NSC     1       1.010   0.220  -0.610                       S
+ATOM      4  OBT NSC     1       0.910   0.520  -2.050                       O
+ATOM      5  CBT NSC     1       2.500  -0.880  -0.470                       C
+ATOM      6  OBT NSC     1       1.290   1.350   0.290                       O
+ATOM      7  OBT NSC     1      -2.330  -0.190  -1.320                       O
+ATOM      8  OBT NSC     1      -2.420  -1.550   0.770                       O
+ATOM      9  F1  NSC     1       2.320  -1.970  -1.230                       F
+ATOM     10  F1  NSC     1       3.570  -0.220  -0.910                       F
+ATOM     11  F1  NSC     1       2.680  -1.230   0.800                       F
+ATOM     12  CBT NSC     1      -1.880   1.040   1.020                       C
+ATOM     13  F1  NSC     1      -3.120   1.120   1.480                       F
+ATOM     14  F1  NSC     1      -1.030   0.980   2.040                       F
+ATOM     15  F1  NSC     1      -1.630   2.100   0.250                       F
+END
+

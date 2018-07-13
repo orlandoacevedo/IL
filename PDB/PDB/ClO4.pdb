@@ -1,0 +1,28 @@
+TITLE     [ClO4] -- Perchlorate
+REMARK   7
+REMARK   7 Ionic liquid OPLS-AA force field
+REMARK   8
+REMARK   8 Version 3/2017
+REMARK   9
+REMARK   9 Orlando Acevedo
+REMARK  10
+REMARK  10 Email: orlando.acevedo@miami.edu
+REMARK  11
+REMARK  11 Contributors: S.V. Sambasivarao, B. Doherty, X. Zhong,
+REMARK  11 S. Gathiaka, B. Li
+REMARK  12
+REMARK  12 S.V. Sambasivarao, O. Acevedo, Development of OPLS-AA
+REMARK  12 Force Field Parameters for 68 Unique Ionic Liquids,
+REMARK  12 J. Chem. Theory Comput., 2009, 5, 1038-1050.
+REMARK  13
+REMARK  13 B. Doherty, X. Zhong, S. Gathiaka, B. Li, O. Acevedo,
+REMARK  13 Revisiting OPLS Force Field Parameters for Ionic
+REMARK  13 Liquid Simulations,
+REMARK  13 J. Chem. Theory Comput., 2017, 13, 6131-6145.
+ATOM      1 Cl1  CLO     1      -0.218  -0.096   0.000                      Cl
+ATOM      2  O1  CLO     1      -1.868  -0.096   0.000                       O
+ATOM      3  O2  CLO     1       0.332   0.682   1.347                       O
+ATOM      4  O3  CLO     1       0.332  -1.652   0.000                       O
+ATOM      5  O4  CLO     1       0.332   0.682  -1.347                       O
+END
+

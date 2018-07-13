@@ -1,0 +1,42 @@
+TITLE     [EMIM] -- 1-ethyl-3-methylimidazolium
+REMARK   7
+REMARK   7 Ionic liquid OPLS-AA force field
+REMARK   8
+REMARK   8 Version 3/2017
+REMARK   9
+REMARK   9 Orlando Acevedo
+REMARK  10
+REMARK  10 Email: orlando.acevedo@miami.edu
+REMARK  11
+REMARK  11 Contributors: S.V. Sambasivarao, B. Doherty, X. Zhong,
+REMARK  11 S. Gathiaka, B. Li
+REMARK  12
+REMARK  12 S.V. Sambasivarao, O. Acevedo, Development of OPLS-AA
+REMARK  12 Force Field Parameters for 68 Unique Ionic Liquids,
+REMARK  12 J. Chem. Theory Comput., 2009, 5, 1038-1050.
+REMARK  13
+REMARK  13 B. Doherty, X. Zhong, S. Gathiaka, B. Li, O. Acevedo,
+REMARK  13 Revisiting OPLS Force Field Parameters for Ionic
+REMARK  13 Liquid Simulations,
+REMARK  13 J. Chem. Theory Comput., 2017, 13, 6131-6145.
+ATOM      1  C01 EMI     1       0.890   0.908  -1.026                       C
+ATOM      2  C04 EMI     1       2.944   1.764  -0.647                       C
+ATOM      3  C03 EMI     1       2.070   2.771  -0.542                       C
+ATOM      4  H07 EMI     1       0.088   0.234  -1.240                       H
+ATOM      5  H09 EMI     1       4.006   1.818  -0.527                       H
+ATOM      6  H08 EMI     1       2.290   3.794  -0.321                       H
+ATOM      7  C05 EMI     1      -0.525   2.920  -0.782                       C
+ATOM      8  H0B EMI     1      -1.312   2.262  -0.475                       H
+ATOM      9  H0C EMI     1      -0.459   3.741  -0.100                       H
+ATOM     10  H0D EMI     1      -0.733   3.288  -1.765                       H
+ATOM     11  N00 EMI     1       0.749   2.187  -0.792                       N
+ATOM     12  C06 EMI     1       2.688  -0.782  -1.168                       C
+ATOM     13  H0F EMI     1       2.921  -0.919  -2.203                       H
+ATOM     14  C0N EMI     1       3.966  -0.962  -0.327                       C
+ATOM     15  H0O EMI     1       4.356  -1.947  -0.478                       H
+ATOM     16  H0P EMI     1       4.696  -0.239  -0.628                       H
+ATOM     17  H0Q EMI     1       3.734  -0.825   0.709                       H
+ATOM     18  N02 EMI     1       2.152   0.571  -0.961                       N
+ATOM     19  H0E EMI     1       1.959  -1.504  -0.867                       H
+END
+
