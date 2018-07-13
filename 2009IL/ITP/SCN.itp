@@ -6,27 +6,30 @@
 ; Email: orlando.acevedo@miami.edu
 ; Contributors: S.V. Sambasivarao, B. Doherty, X. Zhong, S. Gathiaka, B. Li
 ;
-; S.V. Sambasivarao, O. Acevedo, Development of OPLS-AA Force Field Parameters for 68 Unique Ionic Liquids, J. Chem. Theory Comput., 2009, 5, 1038-1050.
-; B. Doherty, X. Zhong, S. Gathiaka, B. Li, O. Acevedo, Revisiting OPLS Force Field Parameters for Ionic Liquid Simulations, 2017, (submitted).
+; S.V. Sambasivarao, O. Acevedo, Development of OPLS-AA Force Field Parameters for 68 Unique Ionic Liquids,
+;     J. Chem. Theory Comput., 2009, 5, 1038-1050.
+;
+; B. Doherty, X. Zhong, S. Gathiaka, B. Li, O. Acevedo, Revisiting OPLS Force Field Parameters for Ionic Liquid Simulations,
+;     J. Chem. Theory Comput., 2017, 13, 6131-6145.
 ;
 ; Values given below for use in GROMACS 5.0.7 and in comments are traditional OPLS-AA units (e.g., angstroms, kcal/mol, degrees)
 
-    [  moleculetype  ]    
+[  moleculetype  ]
 ;    name    nrexcl
-     SCN    3
+SCN    3
 
-    [  atoms  ]                            
+[  atoms  ]
 ;   nr  type resnr residu atom  cgnr   charge    mass
-    1    NZ    1    SCN    NZ    1    -0.6452    14.007
-    2    CZ    1    SCN    CZ    1     0.3263    12.011
-    3    S     1    SCN    S     1    -0.6811    32.06
+1    NZ    1    SCN    NZ    1    -0.6452    14.007
+2    CZ    1    SCN    CZ    1     0.3263    12.011
+3    S     1    SCN    S     1    -0.6811    32.06
 
-    [  bonds  ]                                
-;   ai   aj funct  c0(nm)   c1(kJ mol-1 nm-2) ro(Ang.)  kr(kcal mol-1 Ang.-2)    
-    1    2    1    0.1157    543920.000    ;    1.157    650       CZ-NZ
-    2    3    1    0.1655    197727.470    ;    1.655    236.29    CZ-S
+[  bonds  ]
+;   ai   aj funct  c0(nm)   c1(kJ mol-1 nm-2) ro(Ang.)  kr(kcal mol-1 Ang.-2)
+1    2    1    0.1157    543920.000    ;    1.157    650       CZ-NZ
+2    3    1    0.1655    197727.470    ;    1.655    236.29    CZ-S
 
-    [  angles  ]                                    
-;   ai   aj   ak  funct c0(deg) c1(kJ mol-1 rad-2)  c0(deg c1(kcal mol-1 rad-2)    
-    1    2    3    1    180    1255.2    ;    180    150    S-CZ-NZ
+[  angles  ]
+;   ai   aj   ak  funct c0(deg) c1(kJ mol-1 rad-2)  c0(deg c1(kcal mol-1 rad-2)
+1    2    3    1    180    1255.2    ;    180    150    S-CZ-NZ
 

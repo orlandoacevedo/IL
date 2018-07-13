@@ -1,23 +1,26 @@
 ; Bis(pentafluoroethylsulfonyl)imide anion [NPF2]
-; 
+;
 ; Ionic liquid OPLS-AA force field
 ; Version 3/2017
 ; Orlando Acevedo
 ; Email: orlando.acevedo@miami.edu
 ; Contributors: S.V. Sambasivarao, B. Doherty, X. Zhong, S. Gathiaka, B. Li
 ;
-; S.V. Sambasivarao, O. Acevedo, Development of OPLS-AA Force Field Parameters for 68 Unique Ionic Liquids, J. Chem. Theory Comput., 2009, 5, 1038-1050.
-; B. Doherty, X. Zhong, S. Gathiaka, B. Li, O. Acevedo, Revisiting OPLS Force Field Parameters for Ionic Liquid Simulations, 2017, (submitted).
+; S.V. Sambasivarao, O. Acevedo, Development of OPLS-AA Force Field Parameters for 68 Unique Ionic Liquids,
+;     J. Chem. Theory Comput., 2009, 5, 1038-1050.
+;
+; B. Doherty, X. Zhong, S. Gathiaka, B. Li, O. Acevedo, Revisiting OPLS Force Field Parameters for Ionic Liquid Simulations,
+;     J. Chem. Theory Comput., 2017, 13, 6131-6145.
 ;
 ; Values given below for use in GROMACS 5.0.7 and in comments are traditional OPLS-AA units (e.g., angstroms, kcal/mol, degrees)
 
-    [  atomtypes  ]                                
+[  atomtypes  ]
 ;  type    mass    charge  ptype sigma(nm) epsilon(kJ/mol) sigma(Ang.)  epsilon(kcal/mol)
-    N     14.007    -0.66    A    0.325    0.71128    ;    3.25    0.17
-    SO    32.066     1.09    A    0.355    1.04600    ;    3.55    0.25
-    O2    15.999    -0.56    A    0.296    0.87864    ;    2.96    0.21
-    C1    12.011     0.12    A    0.350    0.27614    ;    3.5     0.066
-    C2    12.011     0.51    A    0.350    0.27614    ;    3.5     0.066
-    F1    18.998    -0.13    A    0.295    0.22175    ;    2.95    0.053
-    F2    18.998    -0.17    A    0.295    0.22175    ;    2.95    0.053
+N     14.007    -0.66    A    0.325    0.71128    ;    3.25    0.17
+SO    32.066     1.09    A    0.355    1.04600    ;    3.55    0.25
+O2    15.999    -0.56    A    0.296    0.87864    ;    2.96    0.21
+C1    12.011     0.12    A    0.350    0.27614    ;    3.5     0.066
+C2    12.011     0.51    A    0.350    0.27614    ;    3.5     0.066
+F1    18.998    -0.13    A    0.295    0.22175    ;    2.95    0.053
+F2    18.998    -0.17    A    0.295    0.22175    ;    2.95    0.053
 
