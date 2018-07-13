@@ -21,6 +21,7 @@ Requirements
 ------------
 * [Gromacs 5.0.7](http://www.gromacs.org/Downloads)
     * Tested with CUDA 7.5/8.0 and on CentOS 6.5/7.0
+    * Heat capacity DoS calculations (g_dos) requires Gromacs 5.1.4 due to a known bug in version 5.0.7
     
 Download
 -----
