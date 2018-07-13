@@ -6,14 +6,17 @@
 ; Email: orlando.acevedo@miami.edu
 ; Contributors: S.V. Sambasivarao, B. Doherty, X. Zhong, S. Gathiaka, B. Li
 ;
-; S.V. Sambasivarao, O. Acevedo, Development of OPLS-AA Force Field Parameters for 68 Unique Ionic Liquids, J. Chem. Theory Comput., 2009, 5, 1038-1050.
-; B. Doherty, X. Zhong, S. Gathiaka, B. Li, O. Acevedo, Revisiting OPLS Force Field Parameters for Ionic Liquid Simulations, 2017, (submitted).
+; S.V. Sambasivarao, O. Acevedo, Development of OPLS-AA Force Field Parameters for 68 Unique Ionic Liquids,
+;     J. Chem. Theory Comput., 2009, 5, 1038-1050.
+;
+; B. Doherty, X. Zhong, S. Gathiaka, B. Li, O. Acevedo, Revisiting OPLS Force Field Parameters for Ionic Liquid Simulations,
+;     J. Chem. Theory Comput., 2017, 13, 6131-6145.
 ;
 ; Values given below for use in GROMACS 5.0.7 and in comments are traditional OPLS-AA units (e.g., angstroms, kcal/mol, degrees)
 
-    [  atomtypes  ]                                
+[  atomtypes  ]
 ;  type   mass      charge   ptype  sigma(nm) epsilon(kJ/mol) sigma(Ang.) epsilon(kcal/mol)
-    C    12.011     0.72736    A    0.375    0.43932    ;    3.75    0.105
-    H    1.008     -0.17696    A    0.242    0.06276    ;    2.42    0.015
-    O    15.999    -0.67520    A    0.296    0.87864    ;    2.96    0.21
+C    12.011     0.72736    A    0.375    0.43932    ;    3.75    0.105
+H    1.008     -0.17696    A    0.242    0.06276    ;    2.42    0.015
+O    15.999    -0.67520    A    0.296    0.87864    ;    2.96    0.21
 

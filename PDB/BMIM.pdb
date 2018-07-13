@@ -11,15 +11,16 @@ REMARK  11
 REMARK  11 Contributors: S.V. Sambasivarao, B. Doherty, X. Zhong,
 REMARK  11 S. Gathiaka, B. Li
 REMARK  12
-REMARK  12 S.V. Sambasivarao, O. Acevedo, Development of OPLS-AA 
+REMARK  12 S.V. Sambasivarao, O. Acevedo, Development of OPLS-AA
 REMARK  12 Force Field Parameters for 68 Unique Ionic Liquids,
 REMARK  12 J. Chem. Theory Comput., 2009, 5, 1038-1050.
 REMARK  13
-REMARK  13 B. Doherty, X. Zhong, S. Gathiaka, B. Li, O. Acevedo, 
+REMARK  13 B. Doherty, X. Zhong, S. Gathiaka, B. Li, O. Acevedo,
 REMARK  13 Revisiting OPLS Force Field Parameters for Ionic
-REMARK  13 Liquid Simulations, 2017, (submitted).
-ATOM      1  N02 BMI     1       0.000  -0.647  -0.704                       N   
-ATOM      2  N00 BMI     1       0.000   1.400   0.000                       N   
+REMARK  13 Liquid Simulations,
+REMARK  13 J. Chem. Theory Comput., 2017, 13, 6131-6145.
+ATOM      1  N02 BMI     1       0.000  -0.647  -0.704                       N
+ATOM      2  N00 BMI     1       0.000   1.400   0.000                       N
 ATOM      3  C01 BMI     1       0.000   0.624  -1.068                       C
 ATOM      4  H07 BMI     1      -0.000   0.975  -2.079                       H
 ATOM      5  C04 BMI     1       0.000  -0.681   0.676                       C
@@ -33,7 +34,7 @@ ATOM     12  H0D BMI     1       0.879   3.217   0.567                       H
 ATOM     13  C06 BMI     1      -0.000  -1.861  -1.566                       C
 ATOM     14  H0E BMI     1      -0.896  -2.421  -1.332                       H
 ATOM     15  H0F BMI     1       0.896  -2.421  -1.332                       H
-ATOM     16  C0G BMI     1      -0.000  -1.591  -3.080                       C 
+ATOM     16  C0G BMI     1      -0.000  -1.591  -3.080                       C
 ATOM     17  H0H BMI     1       0.876  -0.999  -3.339                       H
 ATOM     18  H0I BMI     1      -0.876  -0.999  -3.339                       H
 ATOM     19  C0J BMI     1      -0.000  -2.870  -3.931                       C
@@ -44,3 +45,4 @@ ATOM     23  H0O BMI     1       0.877  -2.017  -5.736                       H
 ATOM     24  H0P BMI     1      -0.877  -2.017  -5.736                       H
 ATOM     25  H0Q BMI     1      -0.000  -3.501  -6.007                       H
 END
+

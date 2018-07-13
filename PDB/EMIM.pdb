@@ -11,13 +11,14 @@ REMARK  11
 REMARK  11 Contributors: S.V. Sambasivarao, B. Doherty, X. Zhong,
 REMARK  11 S. Gathiaka, B. Li
 REMARK  12
-REMARK  12 S.V. Sambasivarao, O. Acevedo, Development of OPLS-AA 
+REMARK  12 S.V. Sambasivarao, O. Acevedo, Development of OPLS-AA
 REMARK  12 Force Field Parameters for 68 Unique Ionic Liquids,
 REMARK  12 J. Chem. Theory Comput., 2009, 5, 1038-1050.
 REMARK  13
-REMARK  13 B. Doherty, X. Zhong, S. Gathiaka, B. Li, O. Acevedo, 
+REMARK  13 B. Doherty, X. Zhong, S. Gathiaka, B. Li, O. Acevedo,
 REMARK  13 Revisiting OPLS Force Field Parameters for Ionic
-REMARK  13 Liquid Simulations, 2017, (submitted).
+REMARK  13 Liquid Simulations,
+REMARK  13 J. Chem. Theory Comput., 2017, 13, 6131-6145.
 ATOM      1  C01 EMI     1       0.890   0.908  -1.026                       C
 ATOM      2  C04 EMI     1       2.944   1.764  -0.647                       C
 ATOM      3  C03 EMI     1       2.070   2.771  -0.542                       C
@@ -38,3 +39,4 @@ ATOM     17  H0Q EMI     1       3.734  -0.825   0.709                       H
 ATOM     18  N02 EMI     1       2.152   0.571  -0.961                       N
 ATOM     19  H0E EMI     1       1.959  -1.504  -0.867                       H
 END
+

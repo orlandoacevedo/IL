@@ -1,12 +1,18 @@
 REMARK   [OMIM]  --  1-Octyl-3-methylimidazolium
-REMARK Ionic liquid OPLS-VSIL force field
-REMARK Version 2/2018
-REMARK Orlando Acevedo
-REMARK Email: orlando.acevedo@miami.edu
-REMARK Contributors: B. Doherty, X. Zhong
-REMARK
-REMARK B. Doherty, X. Zhong, O. Acevedo, A Virtual Site OPLS Force Field for Imidazolium-Based Ionic Liquids. J. Phys. Chem. B, 2018, 122, (in press). doi:10.1021/acs.jpcb.7b11996.
-
+REMARK   7
+REMARK   7 Ionic liquid OPLS-VSIL force field
+REMARK   8
+REMARK   8 Version 2/2018
+REMARK   9
+REMARK   9 Orlando Acevedo
+REMARK  10
+REMARK  10 Email: orlando.acevedo@miami.edu
+REMARK  11
+REMARK  11 Contributors: B. Doherty, X. Zhong
+REMARK  12
+REMARK  12 B. Doherty, X. Zhong, O. Acevedo, Virtual Site OPLS
+REMARK  12 Force Field for Imidazolium-Based Ionic Liquids,
+REMARK  12 J. Phys. Chem. B, 2018, 122, 2962-2974.
 ATOM      1  N02 BMI     1       0.000  -0.647  -0.704                       N
 ATOM      2  N00 BMI     1       0.000   1.400   0.000                       N
 ATOM      3  C01 BMI     1       0.000   0.624  -1.068                       C
@@ -44,5 +50,6 @@ ATOM     34  C0Z BMI     1      -0.000  -4.534 -10.068                       C
 ATOM     35  H00 BMI     1       0.874  -3.965 -10.308                       H
 ATOM     36  H01 BMI     1      -0.000  -5.443 -10.633                       H
 ATOM     37  H02 BMI     1      -0.874  -3.965 -10.308                       H
-ATOM     38  LP  BMI     1       0.000   0.274  -0.131  
+ATOM     38  LP  BMI     1       0.000   0.274  -0.131
 END
+
