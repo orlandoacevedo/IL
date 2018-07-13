@@ -1,12 +1,18 @@
 TITLE     [TCM] -- Tricyanomethanide
-REMARK Ionic liquid OPLS-VSIL force field
-REMARK Version 2/2018
-REMARK Orlando Acevedo
-REMARK Email: orlando.acevedo@miami.edu
-REMARK Contributors: B. Doherty, X. Zhong
-REMARK
-REMARK B. Doherty, X. Zhong, O. Acevedo, A Virtual Site OPLS Force Field for Imidazolium-Based Ionic Liquids. J. Phys. Chem. B, 2018, 122, (in press). doi:10.1021/acs.jpcb.7b11996.
-
+REMARK   7
+REMARK   7 Ionic liquid OPLS-VSIL force field
+REMARK   8
+REMARK   8 Version 2/2018
+REMARK   9
+REMARK   9 Orlando Acevedo
+REMARK  10
+REMARK  10 Email: orlando.acevedo@miami.edu
+REMARK  11
+REMARK  11 Contributors: B. Doherty, X. Zhong
+REMARK  12
+REMARK  12 B. Doherty, X. Zhong, O. Acevedo, Virtual Site OPLS
+REMARK  12 Force Field for Imidazolium-Based Ionic Liquids,
+REMARK  12 J. Phys. Chem. B, 2018, 122, 2962-2974.
 ATOM      1  C1  TCM     1       0.000   0.000   0.000                       C
 ATOM      2  C2  TCM     1       0.000   0.000   1.412                       C
 ATOM      3  C3  TCM     1       1.223   0.000  -0.706                       C
@@ -15,3 +21,4 @@ ATOM      5  N5  TCM     1       0.000   0.000   2.557                       N
 ATOM      6  N6  TCM     1       2.215   0.000  -1.279                       N
 ATOM      7  N7  TCM     1      -2.215  -0.004  -1.279                       N
 END
+
