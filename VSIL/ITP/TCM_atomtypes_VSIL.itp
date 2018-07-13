@@ -6,13 +6,14 @@
 ; Email: orlando.acevedo@miami.edu
 ; Contributors: B. Doherty, X. Zhong
 ;
-; B. Doherty, X. Zhong, O. Acevedo, A Virtual Site OPLS Force Field for Imidazolium-Based Ionic Liquids. J. Phys. Chem. B, 2018, 122, (in press). doi:10.1021/acs.jpcb.7b11996.
+; B. Doherty, X. Zhong, O. Acevedo, Virtual Site OPLS Force Field for Imidazolium-Based Ionic Liquids,
+;     J. Phys. Chem. B, 2018, 122, 2962-2974.
 ;
 ; Values given below for use in GROMACS 5.0.7 and in comments are traditional OPLS-AA units (e.g., angstroms, kcal/mol, degrees)
 
-[  atomtypes  ]                                
-;  type    mass      charge    ptype  sigma(nm) epsilon (kJ/mol)	sigma(Ang.)     epsilon(kcal/mol) 
-    CV    12.011     0.7550992    A    0.33    0.3590    	;	3.3		0.086
-    CZ    12.011    -0.2634032    A    0.33    0.3590    	;	3.3		0.086
-    NZ    14.007    -0.2549632    A    0.32    0.9247    	;	3.2		0.221
+[  atomtypes  ]
+;  type    mass      charge    ptype  sigma(nm) epsilon (kJ/mol)	sigma(Ang.)     epsilon(kcal/mol)
+CV    12.011     0.7550992    A    0.33    0.3590    	;	3.3		0.086
+CZ    12.011    -0.2634032    A    0.33    0.3590    	;	3.3		0.086
+NZ    14.007    -0.2549632    A    0.32    0.9247    	;	3.2		0.221
 

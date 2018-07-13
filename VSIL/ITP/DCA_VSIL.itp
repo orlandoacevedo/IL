@@ -6,7 +6,8 @@
 ; Email: orlando.acevedo@miami.edu
 ; Contributors: B. Doherty, X. Zhong
 ;
-; B. Doherty, X. Zhong, O. Acevedo, A Virtual Site OPLS Force Field for Imidazolium-Based Ionic Liquids. J. Phys. Chem. B, 2018, 122, (in press). doi:10.1021/acs.jpcb.7b11996.
+; B. Doherty, X. Zhong, O. Acevedo, Virtual Site OPLS Force Field for Imidazolium-Based Ionic Liquids,
+;     J. Phys. Chem. B, 2018, 122, 2962-2974.
 ;
 ; Values given below for use in GROMACS 5.0.7 and in comments are traditional OPLS-AA units (e.g., angstroms, kcal/mol, degrees)
 
@@ -16,27 +17,27 @@ NC     3
 
 [ atoms ]
 ;   nr   type  resnr  residu  atom  cgnr    charge      mass
-    1    N3A   1       NC     N3A   1      -0.5810      14.007
-    2    CZA   1       NC     CZA   1       0.4897      12.011
-    3    CZA   1       NC     CZA   1       0.4897      12.011
-    4    NZA   1       NC     NZA   1      -0.5992      14.007
-    5    NZA   1       NC     NZA   1      -0.5992      14.007
+1    N3A   1       NC     N3A   1      -0.5810      14.007
+2    CZA   1       NC     CZA   1       0.4897      12.011
+3    CZA   1       NC     CZA   1       0.4897      12.011
+4    NZA   1       NC     NZA   1      -0.5992      14.007
+5    NZA   1       NC     NZA   1      -0.5992      14.007
 
 [ bonds ]
 ;  ai   aj  funct       c0(nm)  c1(kJ mol-1 nm-2)       ro(Ang.)kr(kcal mol-1 Ang.-2)
-    1    2    1       0.1310   420600.000 ; 		1.310	502.63	 N3-CZ
-    1    3    1       0.1310   420600.000 ; 		1.310	502.63	 N3-CZ
-    2    4    1       0.1157   543920.000 ; 		1.157	650.00	 CZ-NZ
-    3    5    1       0.1157   543920.000 ; 		1.157	650.00	 CZ-NZ
+1    2    1       0.1310   420600.000 ; 		1.310	502.63	 N3-CZ
+1    3    1       0.1310   420600.000 ; 		1.310	502.63	 N3-CZ
+2    4    1       0.1157   543920.000 ; 		1.157	650.00	 CZ-NZ
+3    5    1       0.1157   543920.000 ; 		1.157	650.00	 CZ-NZ
 
 [ angles ]
 ;  ai   aj   ak  funct  c0(deg) c1(kJ mol-1 rad-2)      c0(deg) 	c1(kcal mol-1 rad-2)
-    1    2    4    1    175.2    425 ; 			175.2		50.79	 N3-CZ-NZ
-    1    3    5    1    175.2    425 ; 			175.2		50.79	 N3-CZ-NZ
-    2    1    3    1    118.5    362 ; 			118.5		43.26	 CZ-N3-CZ
+1    2    4    1    175.2    425 ; 			175.2		50.79	 N3-CZ-NZ
+1    3    5    1    175.2    425 ; 			175.2		50.79	 N3-CZ-NZ
+2    1    3    1    118.5    362 ; 			118.5		43.26	 CZ-N3-CZ
 
 [ dihedrals ]
-;  ai  aj  ak  al  funct      c0         c1          c2          c3(kj/mol)     V1      V2      V3      V4 (kcal/mol)  
-    4   2   1   3    5      4.0800     0.0000      0.0000      0.0000 ; 	0.975	0.000	0.000	0.000	 NZ-CZ-N3-CZ
-    5   3   1   2    5      4.0800     0.0000      0.0000      0.0000 ; 	0.975	0.000	0.000	0.000	 NZ-CZ-N3-CZ
+;  ai  aj  ak  al  funct      c0         c1          c2          c3(kj/mol)     V1      V2      V3      V4 (kcal/mol)
+4   2   1   3    5      4.0800     0.0000      0.0000      0.0000 ; 	0.975	0.000	0.000	0.000	 NZ-CZ-N3-CZ
+5   3   1   2    5      4.0800     0.0000      0.0000      0.0000 ; 	0.975	0.000	0.000	0.000	 NZ-CZ-N3-CZ
 

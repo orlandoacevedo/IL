@@ -6,24 +6,25 @@
 ; Email: orlando.acevedo@miami.edu
 ; Contributors: B. Doherty, X. Zhong
 ;
-; B. Doherty, X. Zhong, O. Acevedo, A Virtual Site OPLS Force Field for Imidazolium-Based Ionic Liquids. J. Phys. Chem. B, 2018, 122, (in press). doi:10.1021/acs.jpcb.7b11996.
+; B. Doherty, X. Zhong, O. Acevedo, Virtual Site OPLS Force Field for Imidazolium-Based Ionic Liquids,
+;     J. Phys. Chem. B, 2018, 122, 2962-2974.
 ;
 ; Values given below for use in GROMACS 5.0.7 and in comments are traditional OPLS-AA units (e.g., angstroms, kcal/mol, degrees)
 
 [ atomtypes ]
 ; type   mass  charge  ptype   sigma (nm)   epsilon (kj/mol)    sigma (Ang.)    epsilon (kcal/mol)
-  CR   12.011   0.040  A     3.550000e-1   2.92880e-1	;	3.55		0.070
-  NA   14.007   0.176  A     3.250000e-1   7.11280e-1	;	3.25		0.170
-  CW   12.011  -0.056  A     3.550000e-1   2.92880e-1	;	3.55		0.070
-  LP    0.0000 -0.088  A     0 000000e-1   0.00000e-1	;	0.00		0.000
-  HR    1.008   0.128  A     1.850000e-1   1.25520e-1	;	1.85		0.030
-  HW    1.008   0.136  A     1.850000e-1   1.25520e-1	;	1.85		0.030
-  CM   12.011  -0.200  A     3.500000e-1   2.76144e-1	;	3.50		0.066	
-  HM    1.008   0.104  A     2.150000e-1   1.25520e-1	;	2.15		0.030
-  CA   12.011  -0.064  A     3.500000e-1   2.76144e-1	;	3.50		0.066	
-  HA    1.008   0.080  A     2.250000e-1   1.25520e-1	;	2.25		0.030
-  CS   12.011  -0.096  A     3.500000e-1   2.76144e-1	;	3.50		0.066	
-  HS    1.008   0.048  A     2.500000e-1   1.25520e-1	;	2.50		0.030
-  CT   12.011  -0.192  A     3.500000e-1   2.76144e-1	;	3.50		0.066	
-  HT    1.008   0.064  A     2.500000e-1   1.25520e-1	;	2.50		0.030
+CR   12.011   0.040  A     3.550000e-1   2.92880e-1	;	3.55		0.070
+NA   14.007   0.176  A     3.250000e-1   7.11280e-1	;	3.25		0.170
+CW   12.011  -0.056  A     3.550000e-1   2.92880e-1	;	3.55		0.070
+LP    0.0000 -0.088  A     0 000000e-1   0.00000e-1	;	0.00		0.000
+HR    1.008   0.128  A     1.850000e-1   1.25520e-1	;	1.85		0.030
+HW    1.008   0.136  A     1.850000e-1   1.25520e-1	;	1.85		0.030
+CM   12.011  -0.200  A     3.500000e-1   2.76144e-1	;	3.50		0.066
+HM    1.008   0.104  A     2.150000e-1   1.25520e-1	;	2.15		0.030
+CA   12.011  -0.064  A     3.500000e-1   2.76144e-1	;	3.50		0.066
+HA    1.008   0.080  A     2.250000e-1   1.25520e-1	;	2.25		0.030
+CS   12.011  -0.096  A     3.500000e-1   2.76144e-1	;	3.50		0.066
+HS    1.008   0.048  A     2.500000e-1   1.25520e-1	;	2.50		0.030
+CT   12.011  -0.192  A     3.500000e-1   2.76144e-1	;	3.50		0.066
+HT    1.008   0.064  A     2.500000e-1   1.25520e-1	;	2.50		0.030
 

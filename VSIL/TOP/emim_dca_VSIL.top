@@ -1,12 +1,11 @@
-; EMIM DCA Topology
-;
 ; Ionic liquid OPLS-VSIL force field
 ; Version 2/2018
 ; Orlando Acevedo
 ; Email: orlando.acevedo@miami.edu
 ; Contributors: B. Doherty, X. Zhong
 ;
-; B. Doherty, X. Zhong, O. Acevedo, A Virtual Site OPLS Force Field for Imidazolium-Based Ionic Liquids. J. Phys. Chem. B, 2018, 122, (in press). doi:10.1021/acs.jpcb.7b11996.
+; B. Doherty, X. Zhong, O. Acevedo, Virtual Site OPLS Force Field for Imidazolium-Based Ionic Liquids,
+;     J. Phys. Chem. B, 2018, 122, 2962-2974.
 ;
 ; Values given below for use in GROMACS 5.0.7 and in comments are traditional OPLS-AA units (e.g., angstroms, kcal/mol, degrees)
 
@@ -25,7 +24,7 @@
 #include "/HOME_DIRECTORY_PATH/DCA_VSIL.itp"
 #include "/HOME_DIRECTORY_PATH/EMIM_VSIL.itp"
 
-[system] 
+[system]
 ; Name
 Neat EMI NC
 

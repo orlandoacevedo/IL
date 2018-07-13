@@ -6,7 +6,8 @@
 ; Email: orlando.acevedo@miami.edu
 ; Contributors: B. Doherty, X. Zhong
 ;
-; B. Doherty, X. Zhong, O. Acevedo, A Virtual Site OPLS Force Field for Imidazolium-Based Ionic Liquids. J. Phys. Chem. B, 2018, 122, (in press). doi:10.1021/acs.jpcb.7b11996.
+; B. Doherty, X. Zhong, O. Acevedo, Virtual Site OPLS Force Field for Imidazolium-Based Ionic Liquids,
+;     J. Phys. Chem. B, 2018, 122, 2962-2974.
 ;
 ; Values given below for use in GROMACS 5.0.7 and in comments are traditional OPLS-AA units (e.g., angstroms, kcal/mol, degrees)
 
@@ -16,26 +17,26 @@ NO3       3
 
 [ atoms ]
 ;   nr  type  resnr   residu  atom  cgnr     charge       mass
-    1    N      1       NO3    N     1       0.6352       14.007
-    2    O      1       NO3    O     1      -0.4784       15.999
-    3    O      1       NO3    O     1      -0.4784       15.999
-    4    O      1       NO3    O     1      -0.4784       15.999
+1    N      1       NO3    N     1       0.6352       14.007
+2    O      1       NO3    O     1      -0.4784       15.999
+3    O      1       NO3    O     1      -0.4784       15.999
+4    O      1       NO3    O     1      -0.4784       15.999
 
 [ bonds ]
 ;  ai   aj  funct       c0(nm)  c1(kJ mol-1 nm-2)       ro(Ang.) kr(kcal mol-1 Ang.-2)
-    1    2    1       0.1256    530698.560 ;		1.256	 634.2	N-O
-    1    3    1       0.1256    530698.560 ;		1.256	 634.2	N-O
-    1    4    1       0.1256    530698.560 ;		1.256	 634.2	N-O
+1    2    1       0.1256    530698.560 ;		1.256	 634.2	N-O
+1    3    1       0.1256    530698.560 ;		1.256	 634.2	N-O
+1    4    1       0.1256    530698.560 ;		1.256	 634.2	N-O
 
 [ angles ]
 ;  ai   aj   ak  funct  c0(deg) c1(kJ mol-1 rad-2)      c0(deg) c1(kcal mol-1 rad-2)
-    2    1    3    1    120.0  1011.022		;	120	120.8	O-N-O
-    2    1    4    1    120.0  1011.022		;	120	120.8	O-N-O
-    3    1    4    1    120.0  1011.022		;	120	120.8	O-N-O
+2    1    3    1    120.0  1011.022		;	120	120.8	O-N-O
+2    1    4    1    120.0  1011.022		;	120	120.8	O-N-O
+3    1    4    1    120.0  1011.022		;	120	120.8	O-N-O
 
 [ dihedrals ]
-;  ai   aj   ak   al  funct       c0          c1          c2          c3(kj/mol)        V1      V2      V3      V4 (kcal/mol)      
-    2    1    3    4    5        0.000       8.368       0.000       0.000	;	0.000	2.000	0.000	0.000	O-N-O-O improper
-    3    1    2    4    5        0.000       8.368       0.000       0.000	;	0.000	2.000	0.000	0.000	O-N-O-O improper
-    4    1    2    3    5        0.000       8.368       0.000       0.000	;	0.000	2.000	0.000	0.000	O-N-O-O improper
+;  ai   aj   ak   al  funct       c0          c1          c2          c3(kj/mol)        V1      V2      V3      V4 (kcal/mol)
+2    1    3    4    5        0.000       8.368       0.000       0.000	;	0.000	2.000	0.000	0.000	O-N-O-O improper
+3    1    2    4    5        0.000       8.368       0.000       0.000	;	0.000	2.000	0.000	0.000	O-N-O-O improper
+4    1    2    3    5        0.000       8.368       0.000       0.000	;	0.000	2.000	0.000	0.000	O-N-O-O improper
 
