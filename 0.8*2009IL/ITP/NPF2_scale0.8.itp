@@ -14,6 +14,10 @@
 ;
 ; Values given below for use in GROMACS 5.0.7 and in comments are traditional OPLS-AA units (e.g., angstroms, kcal/mol, degrees)
 
+[  moleculetype  ]
+;    name    nrexcl
+NPF2    3
+
 [ atoms ]
 ;   nr   type resnr residu  atom   cgnr   charge    mass
 1     N     1    NPF2    N       1    -0.528    14.007
