@@ -14,6 +14,7 @@ Please see the following references for technical details:
 Please see the following reference for technical details:
 
 3. [doi:10.1021/acs.jpcb.7b11996](http://pubs.acs.org/doi/abs/10.1021/acs.jpcb.7b11996)
+4. [doi:10.3390/ijms21041190](https://www.mdpi.com/1422-0067/21/4/1190)
 
 **IMPORTANT**: The 2009IL and VSIL parameters should NOT be mixed! VSIL anion parameters were specifically parameterized to work exclusively with the virtual site cations.
 
@@ -75,15 +76,17 @@ Doherty, B.; Zhong, X.; Gathiaka, S.; Li, B.; Acevedo, O. "Revisiting OPLS Force
 
 Doherty, B.; Zhong, X.; Acevedo, O. "A Virtual Site OPLS Force Field for Imidazolium-Based Ionic Liquids" *J. Phys. Chem. B*, **2018**, *122*, 2962-2974. [doi:10.1021/acs.jpcb.7b11996](http://pubs.acs.org/doi/abs/10.1021/acs.jpcb.7b11996)
 
+Velez, C.; Doherty, B.; Acevedo, O. "Accurate Diels-Alder Energies and Endo Selectivity in Ionic Liquids using the OPLS-VSIL Force Field" *Int. J. Mol. Sci.*, **2020**, *21*, 1190. [doi:10.3390/ijms21041190](https://www.mdpi.com/1422-0067/21/4/1190)
+
 About
 -----
-**Contributing Authors**: Brian Doherty, Symon Gathiaka, Bin Li, S.V. Sambasivarao, Xiang Zhong, and Orlando Acevedo*
+**Contributing Authors**: Brian Doherty, Symon Gathiaka, Bin Li, S.V. Sambasivarao, Caroline Velez, Xiang Zhong, and Orlando Acevedo*
 
 **Funding**: Gratitude is expressed to the National Science Foundation (NSF CHE-1562205 and NSF CHE-1149604) for funding the project.
 
 **Software License**:
 OPLS-2009IL and OPLS-VSIL.
-Copyright (C) 2018 Orlando Acevedo
+Copyright (C) 2020 Orlando Acevedo
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
