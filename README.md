@@ -83,7 +83,7 @@ Yue, K.; Doherty, B.; Acevedo, O. "Comparison between Ab Initio Molecular Dynami
 
 About
 -----
-**Contributing Authors**: Brian Doherty, Symon Gathiaka, Bin Li, S.V. Sambasivarao, Caroline Velez, Xiang Zhong, and Orlando Acevedo*
+**Contributing Authors**: Brian Doherty, Symon Gathiaka, Bin Li, S.V. Sambasivarao, Caroline Velez, Kun Yue, Xiang Zhong, and Orlando Acevedo*
 
 **Funding**: Gratitude is expressed to the National Science Foundation (NSF CHE-2102038, NSF CHE-1562205, and NSF CHE-1149604) for funding the project.
 
