@@ -85,11 +85,11 @@ About
 -----
 **Contributing Authors**: Brian Doherty, Symon Gathiaka, Bin Li, S.V. Sambasivarao, Caroline Velez, Xiang Zhong, and Orlando Acevedo*
 
-**Funding**: Gratitude is expressed to the National Science Foundation (NSF CHE-1562205 and NSF CHE-1149604) for funding the project.
+**Funding**: Gratitude is expressed to the National Science Foundation (NSF CHE-2102038, NSF CHE-1562205, and NSF CHE-1149604) for funding the project.
 
 **Software License**:
 OPLS-2009IL and OPLS-VSIL.
-Copyright (C) 2020 Orlando Acevedo
+Copyright (C) 2022 Orlando Acevedo
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
