@@ -79,7 +79,7 @@ Doherty, B.; Zhong, X.; Acevedo, O. "A Virtual Site OPLS Force Field for Imidazo
 
 Velez, C.; Doherty, B.; Acevedo, O. "Accurate Diels-Alder Energies and Endo Selectivity in Ionic Liquids using the OPLS-VSIL Force Field" *Int. J. Mol. Sci.*, **2020**, *21*, 1190. [doi:10.3390/ijms21041190](https://www.mdpi.com/1422-0067/21/4/1190)
 
-Yue, K.; Doherty, B.; Acevedo, O. "Comparison between Ab Initio Molecular Dynamics and OPLS-Based Force Fields for Ionic Liquid Solvent Organization" *J. Phys. Chem. B*, **2022**, *126*, ASAP. [doi:10.1021/acs.jpcb.2c01636](https://doi.org/10.1021/acs.jpcb.2c01636)
+Yue, K.; Doherty, B.; Acevedo, O. "Comparison between Ab Initio Molecular Dynamics and OPLS-Based Force Fields for Ionic Liquid Solvent Organization" *J. Phys. Chem. B*, **2022**, *126*, 3908-3919. [doi:10.1021/acs.jpcb.2c01636](https://doi.org/10.1021/acs.jpcb.2c01636)
 
 About
 -----
